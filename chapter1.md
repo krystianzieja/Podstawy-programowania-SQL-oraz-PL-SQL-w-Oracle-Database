@@ -1,3 +1,3 @@
 # Instrukcja SELECT
 
-Przyk
+Przyklad 
