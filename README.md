@@ -1,3 +1,3 @@
-# My Awesome Book
+# Podstawy programowania SQL oraz PL/SQL w Oracle Database
 
-This file serves as your book's preface, a great place to describe your book's content and ideas.
+Podstawowy kurs z programowania w SQL oraz PL/SQL.
