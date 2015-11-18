@@ -18,7 +18,7 @@ SELECT koluna1, kolumna2, ...
 FROM tabela
 ```
 
-Jednym z podstawowych rozszerzeń instrukcji SELECT jest wykorzystanie "*" zamiast listy kolumn, które chcemy wybrać
+Jednym z podstawowych rozszerzeń instrukcji SELECT jest wykorzystanie "*" zamiast listy kolumn, które chcemy wybrać. Wykorzystanie "*" oznacza, że wybieramy wszystkie kolumny z tabeli.
 
 ```
 SELECT *
