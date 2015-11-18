@@ -126,4 +126,8 @@ Rezultat:
 | SA_REP |
 | ST_CLERK |
 
+DISTINCT może również zostać wykorzystana jeżeli na liście select znajduje się więcej niż jedna kolumna, wtedy przy usuwaniu duplikatów rozważana jest wartość we wszystkich kolumnach.
+
+Przykład 1.5:
+
 
