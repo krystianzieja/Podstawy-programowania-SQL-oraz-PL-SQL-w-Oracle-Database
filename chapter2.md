@@ -98,3 +98,7 @@ Zadanie 1.2:
 Wyświetl całą zawartość tabeli ze stanowiskami (tabela: JOBS)
 
 
+## DISTINCT
+
+Słowo kluczowe DISTINCT pozwala usunąć duplikaty z rezultatu zwracanego przez instrukcję SELECT.
+
