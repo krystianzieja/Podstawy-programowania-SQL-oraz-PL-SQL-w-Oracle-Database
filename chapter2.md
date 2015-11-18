@@ -159,44 +159,7 @@ ST_CLERK|50
 
 Wypisz unikalne działy, w których pracują teraz pracownicy, korzystając z tabeli DEPARTMENTS.
 
-```
-select distinct department_id
-from departments;
-```
-
-Rezultat:
-
-| DEPARTMENT_ID |
-| -- |
-| 10 |
-| 20 |
-| 30 |
-| 40 |
-| 50 |
-| 60 |
-| 70 |
-| 80 |
-| 90 |
-| 100 |
-| 110 |
-| 120 |
-| 130 |
-| 140 |
-| 150 |
-| 160 |
-| 170 |
-| 180 |
-| 190 |
-| 200 |
-| 210 |
-| 220 |
-| 230 |
-| 240 |
-| 250 |
-| 260 |
-| 270 |
-
 
 #### Zadanie 1.4
 
-Wyświetl unikalne stanowiska (kolumna: JOB_ID) wraz z wysokością pensji (kolumna SALARY) z tabeli EMPLOYEES.
+Wyświetl unikalne stanowiska (kolumna: JOB_ID) wraz z wysokością pensji (kolumna SALARY z tabeli EMPLOYEES.
