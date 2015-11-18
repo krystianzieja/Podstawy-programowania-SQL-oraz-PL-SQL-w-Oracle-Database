@@ -102,3 +102,5 @@ Wyświetl całą zawartość tabeli ze stanowiskami (tabela: JOBS)
 
 Słowo kluczowe DISTINCT pozwala usunąć duplikaty z rezultatu zwracanego przez instrukcję SELECT.
 
+**UWAGA:** Wykorzystanie DISTINCT na dużej tabeli może mieć negatywny wpływ na wydajność.
+
