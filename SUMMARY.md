@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [Wprowadzenie do narzędzi Oracle](chapter1.md)
 * [Instrukcja SELECT](chapter2.md)
 
