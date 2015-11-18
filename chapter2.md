@@ -130,4 +130,6 @@ DISTINCT może również zostać wykorzystana jeżeli na liście select znajduje
 
 Przykład 1.5:
 
+```
 
+```
