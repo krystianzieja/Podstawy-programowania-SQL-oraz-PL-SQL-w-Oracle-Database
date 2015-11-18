@@ -110,7 +110,7 @@ Słowo kluczowe DISTINCT pozwala usunąć duplikaty z rezultatu zwracanego przez
 
 **UWAGA:** Wykorzystanie DISTINCT na dużej tabeli może mieć negatywny wpływ na wydajność.
 
-Przykład 1.4:
+### Przykład 1.4
 
 Wybierz listę wszystkich stanowisk (kolumna: JOB_ID) z tabeli JOB_HISTORY eliminując duplikaty.
 
