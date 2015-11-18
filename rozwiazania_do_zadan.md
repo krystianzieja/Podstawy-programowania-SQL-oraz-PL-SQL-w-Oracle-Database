@@ -2,7 +2,7 @@
 
 ## Instrukcja SELECT
 
-Zadanie 1.1:
+#### Zadanie 1.1
 
 ```
 select employee_id, job_id, department_id
@@ -24,7 +24,7 @@ EMPLOYEE_ID|JOB_ID|DEPARTMENT_ID
 176|SA_MAN|80
 200|AC_ACCOUNT|90
 
-Zadanie 1.2:
+#### Zadanie 1.2:
 
 ```
 select *
@@ -59,3 +59,5 @@ MK_MAN|Marketing Manager|9000|15000
 MK_REP|Marketing Representative|4000|9000
 HR_REP|Human Resources Representative|4000|9000
 PR_REP|Public Relations Representative|4500|10500
+
+#### Zadanie 1.3
