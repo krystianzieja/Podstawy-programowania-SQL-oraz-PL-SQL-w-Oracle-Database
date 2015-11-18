@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
-* Instrukcja SELECT
+* [Instrukcja SELECT](chapter2.md)
 
