@@ -97,3 +97,4 @@ Zadanie 1.2:
 
 Wyświetl całą zawartość tabeli ze stanowiskami (tabela: JOBS)
 
+
