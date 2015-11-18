@@ -2,7 +2,24 @@
 
 ## Podstawy instrukcji SELECT
 
-Podstawowa składnia instrukcji SELECT
+Instrukcja SELECT pozwala na wybranie rekordów z tabeli lub perspektywy.
+
+SELECT zapewnia funkcje takie jak:
+
+* Projekcja (kolumny)
+* Selekcja (wiersze)
+* Złączenia (możliwość połączenia więcej niż jednej tabeli)
+
+
+Podstawowa składnia instrukcji SELECT.
+
+```
+SELECT *
+FROM tabela
+
+```
+
+
 
 
 
