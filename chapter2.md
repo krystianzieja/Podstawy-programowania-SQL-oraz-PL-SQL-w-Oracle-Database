@@ -33,7 +33,7 @@ FROM tabela
 ```
 
 
-Przykład 1.1:
+#### Przykład 1.1
 
 Wyświetl całą zawartość tabeli z regionami geograficznymi (nazwa tabeli: REGIONS).
 
