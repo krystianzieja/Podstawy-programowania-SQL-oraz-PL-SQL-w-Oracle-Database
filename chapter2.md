@@ -55,7 +55,7 @@ Rezultat:
 
 Instrukcja SELECT pozwala nam rownież wyspecyfikować kolumny, którymi jesteśmy zainteresowani, służy do tego "lista select", czyli lista nazw kolumn, którą podajemy po słowie kluczowym SELECT.
 
-Przykład 1.2:
+#### Przykład 1.2
 
 Alternatywnym rozwiązaniem zadania z Przykładu 1.1 jest specyfikacja wszystkich kolumn z tabeli REGIONS.
 
