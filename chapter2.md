@@ -131,5 +131,20 @@ DISTINCT może również zostać wykorzystana jeżeli na liście select znajduje
 Przykład 1.5:
 
 ```
-
+select distinct job_id, department_id
+from job_history;
 ```
+
+Rezultat:
+
+JOB_ID|DEPARTMENT_ID
+ -- | --
+IT_PROG|60
+AC_ACCOUNT|90
+SA_REP|80
+MK_REP|20
+SA_MAN|80
+AD_ASST|90
+AC_ACCOUNT|110
+AC_MGR|110
+ST_CLERK|50
