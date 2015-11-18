@@ -134,7 +134,7 @@ Rezultat:
 
 DISTINCT może również zostać wykorzystana jeżeli na liście select znajduje się więcej niż jedna kolumna, wtedy przy usuwaniu duplikatów rozważana jest wartość we wszystkich kolumnach.
 
-Przykład 1.5:
+#### Przykład 1.5:
 
 ```
 select distinct job_id, department_id
@@ -154,3 +154,5 @@ AD_ASST|90
 AC_ACCOUNT|110
 AC_MGR|110
 ST_CLERK|50
+
+
