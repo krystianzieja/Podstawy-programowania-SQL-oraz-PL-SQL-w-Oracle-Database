@@ -14,13 +14,17 @@ SELECT zapewnia funkcje takie jak:
 Podstawowa składnia instrukcji SELECT.
 
 ```
+SELECT koluna1, kolumna2, ...
+FROM tabela
+```
+
+Jednym z podstawowych rozszerzeń instrukcji SELECT jest wykorzystanie "*" zamiast listy kolumn, które chcemy wybrać
+
+```
 SELECT *
 FROM tabela
 
 ```
-
-
-
 
 
 Przykład 1.1:
