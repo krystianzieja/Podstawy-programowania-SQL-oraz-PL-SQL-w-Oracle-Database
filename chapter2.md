@@ -197,3 +197,6 @@ Rezultat:
 | 270 |
 
 
+#### Zadanie 1.4
+
+Wyświetl unikalne stanowiska wraz z wysokością pensji z tabeli EMPLOYEES.
