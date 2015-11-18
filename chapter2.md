@@ -155,4 +155,4 @@ AC_ACCOUNT|110
 AC_MGR|110
 ST_CLERK|50
 
-
+#### Zadanie 1.3
