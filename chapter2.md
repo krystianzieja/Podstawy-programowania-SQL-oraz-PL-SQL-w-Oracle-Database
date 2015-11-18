@@ -76,7 +76,7 @@ Rezultat:
 
 Oczywiście często nie będziemy zinteresowani wszystkimi kolumnami w danej tabeli, wtedy wystarczy wyspecyfikować kolumny, które chcemy pobrać z bazy danych na liście select.
 
-Przykład 1.3:
+#### Przykład 1.3
 
 Wybierz nazwy regionów geograficznych (nazwa tabeli: REGIONS, nazwa kolumny REGION_NAME).
 
