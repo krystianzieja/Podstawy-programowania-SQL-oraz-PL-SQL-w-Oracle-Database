@@ -99,7 +99,7 @@ Zadanie 1.1:
 
 Wybierz identyfikator pracownika (kolumna:  EMPLOYEE_ID), identyfikator stanowiska (kolumna: JOB_ID), identyfikator departamentu (kolumna: DEPARTMENT_ID) z tabeli JOB_HISTORY.
 
-Zadanie 1.2:
+#### Zadanie 1.2
 
 Wyświetl całą zawartość tabeli ze stanowiskami (tabela: JOBS)
 
