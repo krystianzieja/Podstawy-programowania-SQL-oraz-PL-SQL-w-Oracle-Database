@@ -31,6 +31,13 @@ select *
 from jobs;
 ```
 
+Alternatywne rozwiązanie polega na podanie wszystkich kolumn na liście select.
+
+```
+select job_id, job_title, min_salary, max_salary
+from jobs;
+```
+
 JOB_ID|JOB_TITLE|MIN_SALARY|MAX_SALARY
  -- | -- | -- | -- | -- 
 AD_PRES|President|20080|40000
