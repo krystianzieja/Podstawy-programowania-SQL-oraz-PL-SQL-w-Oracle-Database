@@ -1,5 +1,7 @@
 # Instrukcja SELECT
 
+## Podstawy instrukcji SELECT
+
 Przykład 1.1:
 
 Wyświetl całą zawartość tabeli z regionami geograficznymi (nazwa tabeli: REGIONS).
