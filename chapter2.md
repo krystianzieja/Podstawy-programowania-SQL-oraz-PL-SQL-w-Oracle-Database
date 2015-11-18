@@ -163,3 +163,5 @@ Wypisz unikalne działy, w których pracują teraz pracownicy, korzystając z ta
 #### Zadanie 1.4
 
 Wyświetl unikalne stanowiska (kolumna: JOB_ID) wraz z wysokością pensji (kolumna SALARY z tabeli EMPLOYEES.
+
+## Aliasy
