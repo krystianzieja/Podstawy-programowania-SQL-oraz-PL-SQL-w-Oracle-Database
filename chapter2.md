@@ -95,7 +95,7 @@ Rezultat:
 | Middle East and Africa |
 
 
-Zadanie 1.1:
+#### Zadanie 1.1
 
 Wybierz identyfikator pracownika (kolumna:  EMPLOYEE_ID), identyfikator stanowiska (kolumna: JOB_ID), identyfikator departamentu (kolumna: DEPARTMENT_ID) z tabeli JOB_HISTORY.
 
