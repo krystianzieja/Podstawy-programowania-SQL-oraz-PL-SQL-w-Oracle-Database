@@ -125,3 +125,5 @@ Rezultat:
 | SA_MAN |
 | SA_REP |
 | ST_CLERK |
+
+
