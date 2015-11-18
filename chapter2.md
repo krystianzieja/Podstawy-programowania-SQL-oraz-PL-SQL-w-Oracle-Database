@@ -199,4 +199,4 @@ Rezultat:
 
 #### Zadanie 1.4
 
-Wyświetl unikalne stanowiska wraz z wysokością pensji z tabeli EMPLOYEES.
+Wyświetl unikalne stanowiska (kolumna: JOB_ID) wraz z wysokością pensji (kolumna SALARY) z tabeli EMPLOYEES.
