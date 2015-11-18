@@ -1,5 +1,11 @@
 # Instrukcja SELECT
 
+## Wprowadzenie
+
+
+Instrukcje SQL mogą być wysyłane do bazy danych zarówno wielkimi literami jak i małymi. Nie ma wymagania aby słowa kluczowe (DISTINCT, ORDER, TO_DATE) były pisane wielką literą.
+
+
 ## Podstawy instrukcji SELECT
 
 Instrukcja SELECT pozwala na wybranie rekordów z tabeli lub perspektywy.
