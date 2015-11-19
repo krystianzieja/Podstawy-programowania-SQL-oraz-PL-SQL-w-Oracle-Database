@@ -291,6 +291,11 @@ Rezultat:
 | -- |
 | 86400 |
 
+
+#### Operatory artmetyczne
+
+
+
 #### Zadanie 1.7
 
 Oblicz pole koła o średnicy 4.
