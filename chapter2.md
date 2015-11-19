@@ -291,4 +291,7 @@ Rezultat:
 | -- |
 | 86400 |
 
+#### Zadanie 1.7
+
+Oblicz pole koła o średnicy 4.
 
