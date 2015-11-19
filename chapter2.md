@@ -165,3 +165,112 @@ Wypisz unikalne działy, w których pracują teraz pracownicy, korzystając z ta
 Wyświetl unikalne stanowiska (kolumna: JOB_ID) wraz z wysokością pensji (kolumna SALARY z tabeli EMPLOYEES.
 
 ## Aliasy
+
+Domyślnie instrukcja SELECT tworzy nagłówki, korzystając z nazw kolumn zdefiniowanych w tabeli.
+
+W bazie danych Oracle istnieje kilka możliwości podania aliasów. Jeżeli alias zawiera biały znak np. spację lub tabulator, należy alias umięścić pomiędzy znakami ". 
+Pierwszą z możliwości podania aliasu jest wyspecyfikowanie go po nazwie kolumny w instrukcji SELECT.
+
+#### Przykład 1.6
+
+Wyświetl nazwiska pracowników (kolumna last_name) z tabeli EMPLOYEES. Nadaj kolumnie last_name alias Nazwisko.
+
+```
+select last_name Nazwisko
+from employees;
+```
+
+Rezultat:
+
+| NAZWISKO |
+| -- |
+| Abel |
+| Ande |
+| Atkinson |
+| Austin |
+| Baer |
+| ... |
+
+
+#### Przykład 1.7
+
+Wyświetl nazwiska pracowników (kolumna last_name) z tabeli EMPLOYEES. Nadaj kolumnie last_name alias Nazwisko Pracownika.
+
+```
+select last_name "Nazwisko Pracownika"
+from employees;
+```
+
+Rezultat:
+
+| Nazwisko Pracownika |
+| -- |
+| Abel |
+| Ande |
+| Atkinson |
+| Austin |
+| Baer |
+| ... |
+
+Należy zwrócić uwagę, że jeżeli alias nie jest umieszczony pomiędzy znakami ", Oracle zwraca cały alias pisany wielkimi literami. Jeżeli alias umieścimy pomiędzy znakami ", Oracle zachowa wielkość znaków jaką określił programista.
+
+Drugim sposobem określenia aliasu jest wyspecyfikowanie go po słowie kluczowym AS.
+
+```
+select kolumna as alias
+from tabela;
+```
+
+#### Przykład 1.8
+
+Wyświetl identyfikator działu (kolumna: department_id) oraz nazwę działu (kolumna: department_name) oraz nadaj im aliasy numer oraz nazwa dzialu.
+
+```
+select department_id as "numer", department_name as "nazwa dzialu"
+from departments;
+```
+
+Rezultat:
+
+numer|nazwa dzialu
+-- | --
+10|Administration
+20|Marketing
+30|Purchasing
+40|Human Resources
+50|Shipping
+60|IT
+70|Public Relations
+80|Sales
+90|Executive
+100|Finance
+110|Accounting
+120|Treasury
+130|Corporate Tax
+140|Control And Credit
+150|Shareholder Services
+160|Benefits
+170|Manufacturing
+180|Construction
+190|Contracting
+200|Operations
+210|IT Support
+220|NOC
+230|IT Helpdesk
+240|Government Sales
+250|Retail Sales
+260|Recruiting
+270|Payroll
+
+
+#### Zadanie 1.5
+
+Wyświetl wszystkie adresy z tabeli LOCATIONS, nadając poniższym kolumną odpowiednie aliasy. Kolumna STREET_ADDRESS jako Ulica, POSTAL_CODE jako Kod Pocztowy, CITY jako Miasto, COUNTRY_ID jako Panstwo.
+
+#### Zadanie 1.6
+
+Wyświetl kolumnę REGION_NAME, z tabele REGIONS nadajac jej alias NAZWA.
+
+
+## Tabela DUAL
+
