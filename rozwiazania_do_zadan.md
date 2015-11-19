@@ -244,3 +244,13 @@ Rezultat:
 | Americas |
 | Asia |
 | Middle East and Africa |
+
+#### Zadanie 1.7
+
+```
+select (4/2)*(4/2) * 3.14
+from dual;
+```
+
+Rezultat:
+
