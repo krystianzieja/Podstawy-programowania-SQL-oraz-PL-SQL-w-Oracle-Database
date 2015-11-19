@@ -274,4 +274,12 @@ Wyświetl kolumnę REGION_NAME, z tabele REGIONS nadajac jej alias NAZWA.
 
 ## Tabela DUAL
 
-W bazie Oracle znajduje się tabela DUAL, która zawiera tylko jeden wiersz i pozwala nam konstruować zapytania do obiektów, które nie pochodza z bazy danych. Na przykład 
+W bazie Oracle znajduje się tabela DUAL, która zawiera tylko jeden wiersz i pozwala nam konstruować zapytania do obiektów, które nie pochodza z bazy danych. Na przykład do obliczeń numerycznych, lub w celu przetestowania działanie jakiejś funkcji.
+
+#### Przykład 1.9
+
+Oblicz ile sekund jest w dobie.
+
+```
+
+```
