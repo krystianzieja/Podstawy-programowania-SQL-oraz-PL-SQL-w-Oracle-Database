@@ -281,5 +281,7 @@ W bazie Oracle znajduje się tabela DUAL, która zawiera tylko jeden wiersz i po
 Oblicz ile sekund jest w dobie.
 
 ```
-
+select 60*60*24
+from dual;
 ```
+
