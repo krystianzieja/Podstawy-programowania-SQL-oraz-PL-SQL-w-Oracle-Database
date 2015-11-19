@@ -294,6 +294,13 @@ Rezultat:
 
 #### Operatory artmetyczne
 
+| Waga | Operator |  |
+| -- | -- | -- |
+| 1 | () | Nawiasy |
+| 2 | / | Dzielenie |
+| 3 | * | Mnożenie |
+| 4 | - | Odejmowanie |
+| 5 | + | Dodawanie |
 
 
 #### Zadanie 1.7
