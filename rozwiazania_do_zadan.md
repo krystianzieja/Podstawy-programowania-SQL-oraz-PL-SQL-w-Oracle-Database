@@ -248,7 +248,7 @@ Rezultat:
 #### Zadanie 1.7
 
 ```
-select (4/2)*(4/2) * 3.14
+select (4/2) * (4/2) * 3.14
 from dual;
 ```
 
