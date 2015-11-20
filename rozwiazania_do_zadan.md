@@ -320,3 +320,8 @@ Rezultat:
 | -- |
 | Krystian Zieja |
 
+#### Zadanie 1.12
+
+```
+
+```
