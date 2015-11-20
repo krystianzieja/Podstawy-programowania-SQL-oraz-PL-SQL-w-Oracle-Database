@@ -260,3 +260,7 @@ Rezultat:
 
 #### Zadanie 1.8
 
+```
+select 2 * 8 - 4 as "wynik"
+from dual;
+```
