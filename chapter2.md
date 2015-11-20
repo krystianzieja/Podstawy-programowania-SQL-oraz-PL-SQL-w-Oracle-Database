@@ -407,3 +407,10 @@ Error at Line: 1 Column: 16
 ```
 
 Jak widać został zwrócony błąd, gdyż znak ' nie został poprawnie zescape'owany. Jedna z możliwości escape'owania znaku ' w Oracle jest umieszczenie dwóch znaków ' obok siebie.
+
+#### Przykład 1.13
+
+Wyświetl tekst John's book korzystając z tabeli dual.
+
+### Operator q
+
