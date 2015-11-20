@@ -264,3 +264,6 @@ Rezultat:
 select 2 * 8 - 4 as "wynik"
 from dual;
 ```
+
+Rezultat:
+
