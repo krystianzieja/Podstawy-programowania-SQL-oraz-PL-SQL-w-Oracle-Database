@@ -357,6 +357,23 @@ Konkatenacja jest to operacja łączenia ze sobą ciągów znaków aby stworzyć
 #### Przykład 1.11
 
 Wyświetl poniższe zdanie dla każdej zany regionu (kolumna: REGION_NAME) zdefiniowanego w tabeli REGIONS:
-"nazwa regionu" jest na tabeli Ziemia.
+"nazwa regionu" jest na tabeli Ziemia. 
+Nadaj wynikowej kolumnie alias ZDANIE.
+
+```
+select region_name || ' jest na planecie Ziemia.' zdanie
+from regions;
+```
+
+Rezultat:
+
+| ZDANIE |
+| -- | 
+| Europe jest na planecie Ziemia. |
+| Americas jest na planecie Ziemia. |
+| Asia jest na planecie Ziemia. |
+| Middle East and Africa jest na planecie Ziemia. |
+
+
 
 
