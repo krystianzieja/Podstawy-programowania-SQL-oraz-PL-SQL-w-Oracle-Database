@@ -382,3 +382,10 @@ Wypisz swoje imię i nazwisko korzystając z operatora konkatenacji. Nadaj alias
 #### Zadanie 1.12
 
 Sporządź dwukolumnowy raport z tabeli EMPLOYEES, w pierwszej kolumnie umieść imię i nazwisko pracownika (kolumny: FIRST_NAME oraz LAST_NAME), a w drugiej jego pobory (kolumna: SALARY). Nadaj alias pierwszej kolumnie Pracownik, a drugiej Pensja.
+
+## Escape'owanie pojedyńczego cudzysłowania
+
+Oracle traktuje wartości umieszczone pomiędzy znakami pojedyńczego cudzysłowia, jako ciągi znakowe. Interesujące jest co się stanie jeżeli ciąg znaków zawiera w sobie pojedyńczy cudzysłów, obrazuje to poniższy przykład.
+
+#### Przykład 1.12
+
