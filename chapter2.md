@@ -307,3 +307,11 @@ Rezultat:
 
 Oblicz pole koła o średnicy 4.
 
+#### Zadanie 1.8
+
+Oblicz wartość funkcji y = 2x - 4 dla x = 8.
+
+#### Zadanie 1.9
+
+Oblicz wartość y, korzystając z równania
+$$y = (x^2 + z^3)/2$$ dla x = 3 oraz z = 5.
