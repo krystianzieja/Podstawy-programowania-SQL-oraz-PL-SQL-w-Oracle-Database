@@ -323,11 +323,26 @@ W Oracle można wykorzystać operatory + oraz - przy pracy z datami. Należy pam
 
 #### Przykład 1.10
 
-Wyświetl ile dni przepracował pracownik (kolumna: EMPLOYEE_ID) na danym stanowsku (kolumna: JOB_ID) korzystając z tabeli JOB_HISTORY, nadając tej kolumnie alias Przepracowanych . Data początku pracy znajduje się w kolumnie START_DATE, a zakończenia w kolumnie END_DATE.
+Wyświetl ile dni przepracował pracownik (kolumna: EMPLOYEE_ID) na danym stanowsku (kolumna: JOB_ID) korzystając z tabeli JOB_HISTORY, nadając tej kolumnie alias Przepracowanych dni. Data początku pracy znajduje się w kolumnie START_DATE, a zakończenia w kolumnie END_DATE.
 
 ```
 select employee_id, job_id, 
 (end_date - start_date) + 1 "Przepracowanych dni"
 from job_history;
 ```
+
+Rezultat:
+
+EMPLOYEE_ID|JOB_ID|Przepracowanych dni
+ -- | -- | -
+102|IT_PROG|2019
+101|AC_ACCOUNT|1498
+101|AC_MGR|1235
+201|MK_REP|1402
+114|ST_CLERK|648
+122|ST_CLERK|365
+200|AD_ASST|2101
+176|SA_REP|283
+176|SA_MAN|365
+200|AC_ACCOUNT|1645
 
