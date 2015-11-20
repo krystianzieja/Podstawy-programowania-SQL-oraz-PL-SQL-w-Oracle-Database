@@ -389,3 +389,20 @@ Oracle traktuje wartości umieszczone pomiędzy znakami pojedyńczego cudzysłow
 
 #### Przykład 1.12
 
+Wyświetl tekst John's book korzystając z tabeli dual.
+
+```
+select 'John's book'
+from dual;
+```
+
+Rezultat:
+
+```
+ORA-00923: FROM keyword not found where expected
+00923. 00000 -  "FROM keyword not found where expected"
+*Cause:    
+*Action:
+Error at Line: 1 Column: 16
+```
+
