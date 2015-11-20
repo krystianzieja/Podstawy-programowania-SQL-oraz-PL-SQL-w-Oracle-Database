@@ -374,6 +374,10 @@ Rezultat:
 | Asia jest na planecie Ziemia. |
 | Middle East and Africa jest na planecie Ziemia. |
 
+#### Zadanie 1.11
+
+Wypisz swoje imię i nazwisko korzystając z operatora konkatenacji.
+
 
 
 
