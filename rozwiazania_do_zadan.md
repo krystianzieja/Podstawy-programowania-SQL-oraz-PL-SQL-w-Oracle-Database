@@ -296,3 +296,12 @@ from employees;
 
 Rezultat:
 
+FIRST_NAME|LAST_NAME|HIRE_DATE|Data Zakonczenia
+-- | -- | -- | --
+Steven|King|17-JUN-03|07-JUN-43
+Neena|Kochhar|21-SEP-05|11-SEP-45
+Lex|De Haan|13-JAN-01|03-JAN-41
+Alexander|Hunold|03-JAN-06|24-DEC-45
+Bruce|Ernst|21-MAY-07|11-MAY-47
+David|Austin|25-JUN-05|15-JUN-45
+... | ... | ... | ...
