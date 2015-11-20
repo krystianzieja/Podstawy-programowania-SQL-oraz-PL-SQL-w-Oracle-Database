@@ -286,3 +286,13 @@ Rezultat:
 | 67 |
 
 
+#### Zadanie 1.10
+
+```
+select first_name, last_name, hire_date, 
+    (40 * 365) + hire_date "Data Zakonczenia"
+from employees;
+```
+
+Rezultat:
+
