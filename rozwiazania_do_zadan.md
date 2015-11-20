@@ -305,3 +305,18 @@ Alexander|Hunold|03-JAN-06|24-DEC-45
 Bruce|Ernst|21-MAY-07|11-MAY-47
 David|Austin|25-JUN-05|15-JUN-45
 ... | ... | ... | ...
+
+
+#### Zadanie 1.11
+
+```
+select 'Krystian' || ' ' || 'Zieja' as "Nazwa"
+from dual;
+```
+
+Rezultat:
+
+| Nazwa |
+| -- |
+| Krystian Zieja |
+
