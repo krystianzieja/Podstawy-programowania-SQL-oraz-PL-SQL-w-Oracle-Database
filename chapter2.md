@@ -381,4 +381,4 @@ Wypisz swoje imię i nazwisko korzystając z operatora konkatenacji. Nadaj alias
 
 #### Zadanie 1.12
 
-Sporządź dwukolumnowy raport z tabeli EMPLOYEES, w pierwszej kolumnie umieść imię i nazwisko pracownika (kolumny: FIRST_NAME oraz LAST_NAME), a w drugiej jego pobory (kolumna: SALARY).
+Sporządź dwukolumnowy raport z tabeli EMPLOYEES, w pierwszej kolumnie umieść imię i nazwisko pracownika (kolumny: FIRST_NAME oraz LAST_NAME), a w drugiej jego pobory (kolumna: SALARY). Nadaj alias pierwszej kolumnie Pracownik, a drugiej Pensja.
