@@ -319,7 +319,7 @@ Nadaj wynikowej kolumnie nazwę wynik.
 
 ### Operatory artmetyczne i daty
 
-W Oracle można wykorzystać operatory + oraz - przy pracy z datami. Jeżeli obydwa argumenty operacji dodawnia lub odejmowania są typu DATE, wynik będzie liczbą dni pomiędNależy pamiętać, że wynik jest wyrażony w dniach. Operand numeryczny operacji dodawania lub odejnowania jest traktowany jako liczba dni.
+W Oracle można wykorzystać operatory + oraz - przy pracy z datami. Jeżeli obydwa argumenty operacji dodawnia lub odejmowania są typu DATE, wynik będzie liczbą dni pomiędzy tymi datami. Należy pamiętać, że wynik jest wyrażony w dniach. Operand numeryczny operacji dodawania lub odejnowania jest traktowany jako liczba dni.
 
 #### Przykład 1.10
 
