@@ -348,4 +348,4 @@ EMPLOYEE_ID|JOB_ID|Przepracowanych dni
 
 #### Zadanie 1.10
 
-Oblicz datę przejścia na emeryturę, zakładając, że trzeba mieć 40 letnią wysługę lat. Jako początek pracy przyjmij kolumnę HIRE_DATE z tabeli EMPLOYEES. Dla uproszczenia przyjmij, że rok ma 365 dni. Wynikowej kolumnie nadaj nazwę Data zakońc
+Oblicz datę przejścia na emeryturę, zakładając, że trzeba mieć 40 letnią wysługę lat. Jako początek pracy przyjmij kolumnę HIRE_DATE z tabeli EMPLOYEES. Dla uproszczenia przyjmij, że rok ma 365 dni. Wynikowej kolumnie nadaj nazwę Data zakończenia.
