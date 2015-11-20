@@ -319,7 +319,7 @@ Nadaj wynikowej kolumnie nazwę wynik.
 
 ### Operatory artmetyczne i daty
 
-W Oracle można wykorzystać operatory + oraz - przy pracy z datami. Jeżeli obydwa argumenty operacji dodawnia lub odejmowania są typu DATE, wynik będzie liczbą dni pomiędzy tymi datami. Należy pamiętać, że wynik jest wyrażony w dniach. Operand numeryczny operacji dodawania lub odejnowania jest traktowany jako liczba dni.
+W Oracle można wykorzystać operatory + oraz - przy pracy z datami. Jeżeli obydwa argumenty operacji dodawnia lub odejmowania są typu DATE, wynik będzie liczbą dni pomiędzy tymi datami. Jeżeli jednym z operandów jest liczba, jest on traktowany jako liczba dni, a rezultatem bedzie data.
 
 #### Przykład 1.10
 
@@ -348,5 +348,4 @@ EMPLOYEE_ID|JOB_ID|Przepracowanych dni
 
 #### Zadanie 1.10
 
-
-
+Policz ile dni muszą przepracować jeszcze pracownicy, aby mieć 40 letnią wysługę lat. Jako początek pracy przyjmij kolumnę HIRE__DATE z tabeli EMPLOYEES. Dla uproszczenia przyjmij, że rok ma 365 dn
