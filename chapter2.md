@@ -316,3 +316,12 @@ Oblicz wartość funkcji y = 2x - 4 dla x = 8. Nadaj wynikowej kolumnie nazwę w
 Oblicz wartość y, korzystając z równania
 $$y = (x^2 + z^3)/2$$ dla x = 3 oraz z = 5.
 Nadaj wynikowej kolumnie nazwę wynik.
+
+### Operatory artmetyczne i daty
+
+W Oracle można wykorzystać operatory + oraz - przy pracy z datami. Należy pamiętać, że wynik jest wyrażony w dniach. Operand numeryczny operacji dodawania lub odejnowania jest traktowany jako liczba dni.
+
+#### Przykład 1.10
+
+Wyświetl ile dni przepracował pracownik (kolumna: EMPLOYEE_ID) na danym stanowsku (kolumna: JOB_ID) korzystając z tabeli JOB_HISTORY. Data początku pracy znajduje się w kolumnie START_DATE, a zakończenia w kolumnie END_DATE.
+
