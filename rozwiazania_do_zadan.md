@@ -323,5 +323,17 @@ Rezultat:
 #### Zadanie 1.12
 
 ```
-
+select first_name || ' ' || last_name "Pracownik", salary "Pensja"
+from employees;
 ```
+
+Rezultat:
+
+Pracownik|Pensja
+-- | -- 
+Steven King|24000
+Neena Kochhar|17000
+Lex De Haan|17000
+Alexander Hunold|9000
+Bruce Ernst|6000
+David Austin|4800
