@@ -334,7 +334,7 @@ from job_history;
 Rezultat:
 
 EMPLOYEE_ID|JOB_ID|Przepracowanych dni
- -- | -- | -
+ -- | -- | --
 102|IT_PROG|2019
 101|AC_ACCOUNT|1498
 101|AC_MGR|1235
@@ -345,4 +345,8 @@ EMPLOYEE_ID|JOB_ID|Przepracowanych dni
 176|SA_REP|283
 176|SA_MAN|365
 200|AC_ACCOUNT|1645
+
+#### Zadanie 1.10
+
+
 
