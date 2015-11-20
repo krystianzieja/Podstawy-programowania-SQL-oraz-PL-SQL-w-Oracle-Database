@@ -376,8 +376,5 @@ Rezultat:
 
 #### Zadanie 1.11
 
-Wypisz swoje imię i nazwisko korzystając z operatora konkatenacji.
-
-
-
+Wypisz swoje imię i nazwisko korzystając z operatora konkatenacji. Nadaj alias na
 
