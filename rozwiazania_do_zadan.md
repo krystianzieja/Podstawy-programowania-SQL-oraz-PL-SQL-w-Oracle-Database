@@ -281,3 +281,8 @@ from dual;
 
 Rezultat:
 
+| wynik |
+| -- |
+| 67 |
+
+
