@@ -352,5 +352,11 @@ Oblicz datę przejścia na emeryturę, zakładając, że trzeba mieć 40 letnią
 
 ## Konkatenacja
 
-Konkatenacja jest to operacja łączenia ze sobą ciągów znaków aby stworzyć nowy ciąg znakowy.
+Konkatenacja jest to operacja łączenia ze sobą ciągów znaków aby stworzyć nowy ciąg znakowy. Operatorem konkatencji w Oracle Database jest ||.
+
+#### Przykład 1.11
+
+Wyświetl poniższe zdanie dla każdej zany regionu (kolumna: REGION_NAME) zdefiniowanego w tabeli REGIONS:
+"nazwa regionu" jest na tabeli Ziemia.
+
 
