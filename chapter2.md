@@ -410,7 +410,21 @@ Jak widać został zwrócony błąd, gdyż znak ' nie został poprawnie zescape'
 
 #### Przykład 1.13
 
-Wyświetl tekst John's book korzystając z tabeli dual.
+Wyświetl tekst John's book korzystając z tabeli dual Nadaj kolumnie wynikowej alias WYNIK.
+
+```
+select 'John''s book' wynik
+from dual;
+```
+
+Rezultat:
+
+| WYNIK |
+| -- |
+| John's book |
+
+
+
 
 ### Operator q
 
