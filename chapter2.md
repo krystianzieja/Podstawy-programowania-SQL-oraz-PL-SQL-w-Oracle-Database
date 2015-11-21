@@ -427,9 +427,15 @@ Rezultat:
 
 ### Operator q
 
-Operator q jest alternatywną metodą escape'owania znaków w bazie danych Oracle. Pozwala on określić dwa znaki, najczęściej są to pary nawiasów np. [], {}, które poinformują silnik baz danych o tym, żeby potraktował wszystko co jest pomiędzy nimi jako ciąg znaków.
+Operator q jest alternatywną metodą escape'owania znaków w bazie danych Oracle. Pozwala on określić dwa znaki, najczęściej są to pary nawiasów np. [], {}, które poinformują silnik baz danych o tym, żeby potraktował wszystko co jest pomiędzy nimi jako ciąg znaków. Pełna składnia operator q przedstawiona jest poniżej:
+
+```
+q'[dowolny diag znaków]'
+```
 
 #### Przykład 1.14
+
+Wyświetl tekst John's book korzystając z tabeli dual Nadaj kolumnie wynikowej alias WYNIK. Wykorzystaj operator q.
 
 ```
 select q'[John's book]' wynik
