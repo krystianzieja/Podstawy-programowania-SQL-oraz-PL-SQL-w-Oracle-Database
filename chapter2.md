@@ -466,5 +466,12 @@ W bazach danych występuje specjalna wartość określana jako NULL. NULL oznacz
 Sprawdź strukturę tabeli REGIONS.
 
 ```
-
+describe regions
 ```
+
+Rezultat:
+
+Name | Null | Type         
+--| -- | --
+REGION_ID |  NOT NULL | NUMBER       
+REGION_NAME |         | VARCHAR2(25) 
