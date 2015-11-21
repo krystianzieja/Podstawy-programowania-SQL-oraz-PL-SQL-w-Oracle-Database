@@ -435,7 +435,7 @@ q'[dowolny diag znaków]'
 Przy czym [] jest dowolnym ogranicznikiem tekstu (np. [], {}, ##)
 ```
 
-Jako ogranicznik tekstu możemy zastosować dowolny jedno bądź wielobajtowy znak za wyjątkiem spacji, tabulatora oraz znaku końca linii. W przypadku wykorzystania nawiaśow stosuje się nawias otwierający i zamykający, w przypadku 
+Jako ogranicznik tekstu możemy zastosować dowolny jedno bądź wielobajtowy znak za wyjątkiem spacji, tabulatora oraz znaku końca linii. W przypadku wykorzystania nawiaśow stosuje się nawias otwierający i zamykający, w przypadku innych znaków ograniczających powtarza się ten sam znak na końcu i początku te 
 
 #### Przykład 1.14
 
