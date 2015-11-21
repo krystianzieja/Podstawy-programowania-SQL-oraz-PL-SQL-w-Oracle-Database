@@ -456,3 +456,15 @@ Rezultat:
 #### Zadanie 1.13
 
 Wygeneruj nagłówki listów korzystając z tabeli EMPLOYEES, oraz kolumn FIRST_NAME oraz LAST_NAME. Powinna zostać zwrócona jedna kolumna z aliasem Naglowek w formacie: Szanowny Pan'Pani Imię Nazwiski. Wykorzystaj operator q, oraz znak jako ogranicznik tekstu.
+
+## Wartość NULL
+
+W bazach danych występuje specjalna wartość określana jako NULL. NULL oznacza brak wartości. W tabeli każda kolumna, za wyjątkiem tych zdefiniowanych jako klucz głowny, może być zdefiniowana jako przyjmująca wartości NULL lub nie. Najłatwiejszym sposobem na sprawdzenie, do której kolumny możemy przypisać wartości NULL, a do których nie jest użycie polecenia describe na danej tabeli.
+
+#### Przykład 1.14
+
+Sprawdź strukturę tabeli REGIONS.
+
+```
+
+```
