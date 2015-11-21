@@ -453,3 +453,6 @@ Rezultat:
 | John's book |
 
 
+#### Zadanie 1.13
+
+Wygeneruj nagłówki listów korzystając z tabeli EMPLOYEES, oraz kolumn FIRST_NAME oraz LAST_NAME. Powinna zostać zwrócona jedna kolumna z aliasem Naglowek w formacie: Szanowny Pan'Pani Imię Nazwiski. Wykorzystaj operator q, oraz znak jako ogranicznik tekstu.
