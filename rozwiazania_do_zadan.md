@@ -337,3 +337,23 @@ Lex De Haan|17000
 Alexander Hunold|9000
 Bruce Ernst|6000
 David Austin|4800
+
+#### Zadanie 1.13
+
+```
+select q'#Szanowny Pan'Pani #' || first_name || ' ' || last_name as "Naglowek"
+from employees;
+```
+
+Rezultat:
+
+| Naglowek |
+| -- |
+| Szanowny Pan'Pani Ellen Abel |
+| Szanowny Pan'Pani Sundar Ande |
+| Szanowny Pan'Pani Mozhe Atkinson |
+| Szanowny Pan'Pani David Austin |
+| Szanowny Pan'Pani Hermann Baer |
+| Szanowny Pan'Pani Shelli Baida |
+| Szanowny Pan'Pani Amit Banda |
+| ... |
