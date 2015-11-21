@@ -431,7 +431,11 @@ Operator q jest alternatywną metodą escape'owania znaków w bazie danych Oracl
 
 ```
 q'[dowolny diag znaków]'
+
+Przy czym [] jest dowolnym ogranicznikiem tekstu (np. [], {}, ##)
 ```
+
+Jako ogranicznik tekstu możemy zastosować dowol
 
 #### Przykład 1.14
 
