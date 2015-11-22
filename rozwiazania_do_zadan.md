@@ -357,3 +357,6 @@ Rezultat:
 | Szanowny Pan'Pani Shelli Baida |
 | Szanowny Pan'Pani Amit Banda |
 | ... |
+
+## Klauzula WHERE
+
