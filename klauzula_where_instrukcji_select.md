@@ -13,7 +13,9 @@ Klauzula WHERE musi zawierać conajmniej jeden warunek.
 Wyświetl nazwę państwa (kolumna: CONTRY_NAME) dla państwa o kodzie MX (kolumna: COUNTRY_ID) z tabeli COUNTRIES.
 
 ```
-
+select country_name
+from countries
+where country_id = 'MX';
 ```
 
 
