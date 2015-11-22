@@ -483,4 +483,5 @@ Projektując relacyjną bazę danych należy zawsze zwrócić uwagę na specyfik
 insert into regions(region_id, region_name) values(99, NULL);
 ```
 
-Powyższa instrukcja jest poprawna
+Powyższa instrukcja jest poprawna strukturalnie, ale jej wykonanie nie ma większego sensu logicznego, gdyż wstawimy nowy region do tabeli REGIONS. Niestety nowy region nie ma żadnej nazwy, więc jego wykorzystanie w aplikacji jest bardzo wątpliwe.
+
