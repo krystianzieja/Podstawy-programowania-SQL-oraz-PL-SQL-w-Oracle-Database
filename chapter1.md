@@ -45,11 +45,19 @@ Uruchom narzędzie SQL*Plus bez logowania się do bazy danych, a następnie poł
 ```
 sqlplus /nolog
 
-SQL*Plus: Release 11.2.0.1.0 Production on Sun Nov 22 07:23:05 2015
-
-Copyright (c) 1982, 2010, Oracle.  All rights reserved.
-
 SQL> connect hr/hr
+
+Connected.
+```
+
+#### Przykład 0.4
+
+Uruchom narzędzie SQL*Plus bez logowania się do bazy danych, a następnie połącz się do bazy danych wykorzystując net service name orcl, korzystając z polecenia CONNECT.
+
+```
+sqlplus /nolog
+
+SQL> connect hr/hr@orcl
 
 Connected.
 ```
