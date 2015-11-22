@@ -103,3 +103,7 @@ JOBS
 7 rows selected.
 ```
 
+## SQL Developer
+
+SQL Developer jest narzędziem GUI, wykorzystywanym głównie do programowania baz danych.
+
