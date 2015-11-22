@@ -59,8 +59,11 @@ W warunkach klauzuli WHERE oprócz stałych można wykorzystać kolumny.
 
 #### Przykład 2.3
 
-Wyświetl pracowników, których pensja jest dziesięciokrotnością numeru działu, w którym pracują.
+Wyświetl pracowników, których pensja jest 90-cio krotnością numeru działu, w którym pracują.
 
 ```
-
+select last_name, salary, department_id
+from employees
+where salary = 90 * department_id;
 ```
+
