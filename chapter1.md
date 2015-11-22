@@ -36,6 +36,6 @@ SQL>exit
 
 Po uruchomieniu SQL*Plus podajemy polecenia w prompt'cie SQL*Plus'a, który domyślnie jest oznaczony jako *SQL>*. W celu zamknięcia SQL*Plus'a możemy wykorzystać polecenia quit lub exit.
 
-
+Drugim sposobem połączenia się z bazą danych korzystając z SQL*Plus, Jest uruchomienie SQL*Plus'a bez podawania specyfikacji połączenia Jeżeli chcemy uruchomić SQL*Plus bez spec
 
 W SQL*Plus każdą instrukcje SQL należy zakończyć znakiem terminatora: „;” lub „/” w nowej linni.
