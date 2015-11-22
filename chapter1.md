@@ -22,7 +22,7 @@ Połącz się z lokalną bazą danych korzystając SQL*Plus.
 
 ```
 sqlplus hr/hr
-SQL>
+SQL>quit
 ```
 
 #### Przykład 0.2
@@ -30,7 +30,10 @@ SQL>
 Połącz się z bazą danych korzystając z SQL*Plus i orcl jako Net Service Name.
 
 ```
-
+sqlplus hr/hr@orcl
+SQL>exit
 ```
+
+Po uruchomieniu SQL*Plus podajemy polecenia w prompt'cie SQL*Plus'a, który domyślnie jest oznaczony jako *SQL>*. W celu zamknięcia SQL*Plus'a możemy wykorzystać polecenia quit lub exit.
 
 W SQL*Plus każde polecenie należy zakończyć znakiem terminatora: „;” lub „/” w nowej linni.
