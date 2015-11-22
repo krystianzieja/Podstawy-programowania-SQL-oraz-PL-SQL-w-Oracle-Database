@@ -111,4 +111,7 @@ SQL Developer jest narzędziem GUI, wykorzystywanym głównie do programowania b
 
 Połącz się do bazy danych korzystając z SQL Developer'a.
 
+![](sql-developer-01.png)
+
+![](sql-developer-02.png)
 
