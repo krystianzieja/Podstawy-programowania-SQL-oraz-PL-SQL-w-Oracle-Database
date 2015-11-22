@@ -63,3 +63,24 @@ Connected.
 ```
 
 W SQL*Plus każdą instrukcje SQL należy zakończyć znakiem terminatora: „;” lub „/” w nowej linni.
+
+#### Przykład 0.5
+
+Wyświetl nazwy tabel znajdujące się w schemacie użytkownika hr.
+
+```
+SQL> select table_name
+  2  from user_tables
+  3  /
+
+TABLE_NAME
+------------------------------
+LOCATIONS
+COUNTRIES
+JOB_HISTORY
+REGIONS
+DEPARTMENTS
+EMPLOYEES
+JOBS
+```
+
