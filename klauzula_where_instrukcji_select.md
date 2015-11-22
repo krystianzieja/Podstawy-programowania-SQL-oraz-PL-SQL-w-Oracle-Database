@@ -26,8 +26,22 @@ Rezultat:
 
 #### Przykład 2.2
 
-Wyświetl nazwy państ (kolumna: COUNTRY_NAME) znajdujące się w regionie (kolumna: REGION_ID) o identyfikatorze 3 z tabeli COUNTRIES.
+Wyświetl nazwy państ (kolumna: COUNTRY_NAME) znajdujące się w regionie (kolumna: REGION_ID) o identyfikatorze 3 z tabeli COUNTRIES. W raporcie umieść równieć kolumnę z identyfikatorem regionu.
 
 ```
-
+select country_name, region_id
+from countries
+where region_id = 3;
 ```
+
+Rezultat:
+
+COUNTRY_NAME|REGION_ID
+-- | --
+Australia|3
+China|3
+India|3
+Japan|3
+Malaysia|3
+Singapore|3
+
