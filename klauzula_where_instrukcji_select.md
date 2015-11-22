@@ -60,3 +60,7 @@ W warunkach klauzuli WHERE oprócz stałych można wykorzystać kolumny.
 #### Przykład 2.3
 
 Wyświetl pracowników, których pensja jest dziesięciokrotnością numeru działu, w którym pracują.
+
+```
+
+```
