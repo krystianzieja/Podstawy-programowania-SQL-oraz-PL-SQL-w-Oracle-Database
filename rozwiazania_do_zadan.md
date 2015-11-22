@@ -360,3 +360,19 @@ Rezultat:
 
 ## Klauzula WHERE
 
+#### Zadanie 2.1
+
+```
+select last_name, first_name, salary
+from employees
+where salary = 10000;
+```
+
+Rezultat:
+
+LAST_NAME|FIRST_NAME|SALARY
+-- | -- | --
+Tucker|Peter|10000
+King|Janette|10000
+Bloom|Harrison|10000
+Baer|Hermann|10000
