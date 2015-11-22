@@ -82,3 +82,5 @@ Wyświelt nazwiska (kolumna: LAST_NAME) wszystkich pracowników, którzy pracuj�
 
 Wyświelt nazwiska (kolumna: LAST_NAME) wszystkich pracowników, którzy pracują na stanowisku 'SA_REP'.
 
+### Konkatenacja klauzulu WHERE
+
