@@ -84,3 +84,22 @@ EMPLOYEES
 JOBS
 ```
 
+Alternatywnie możemy wykorzystać średnik aby zakończyć instrukcję SQL.
+
+```
+SQL> select table_name
+  2  from user_tables;
+
+TABLE_NAME
+------------------------------
+LOCATIONS
+COUNTRIES
+JOB_HISTORY
+REGIONS
+DEPARTMENTS
+EMPLOYEES
+JOBS
+
+7 rows selected.
+```
+
