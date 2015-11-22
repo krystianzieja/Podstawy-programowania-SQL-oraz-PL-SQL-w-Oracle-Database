@@ -69,3 +69,8 @@ where salary = 90 * department_id;
 
 Rezultat:
 
+LAST_NAME|SALARY|DEPARTMENT_ID
+-- | -- | --
+Faviet|9000|100
+Marvins|7200|80
+
