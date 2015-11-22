@@ -496,3 +496,16 @@ from employees;
 
 Rezultat:
 
+LAST_NAME|SALARY|COMMISSION_PCT
+-- | -- | -- 
+Davies|3100|
+Matos|2600|
+Vargas|2500|
+Russell|14000|0.4
+Partners|13500|0.3
+Errazuriz|12000|0.3
+Cambrault|11000|0.3
+Zlotkey|10500|0.2
+Tucker|10000|0.3
+Bernstein|9500|0.25
+.. | .. | ..
