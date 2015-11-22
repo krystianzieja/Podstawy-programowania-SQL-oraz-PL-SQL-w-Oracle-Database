@@ -1,4 +1,4 @@
-# Instrukcja SELECT
+# Podstawy instrukcji SELECT
 
 ## Wprowadzenie
 
