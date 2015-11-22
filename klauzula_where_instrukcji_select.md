@@ -55,3 +55,8 @@ Wyświetl nazwisko (kolumna: LAST_NAME), imię (kolumna: FIRST_NAME) oraz pensj�
 * Oracle przechowuje ciągi znaków z zachowaniem wielkości znaków ("case-sensitive") 
 * Oracle ma wiele formatów daty, więc najbezpieczniej jest zawsze skorzystać z funkcji TO_DATE
  
+W warunkach klauzuli WHERE oprócz stałych można wykorzystać kolumny. 
+
+#### Przykład 2.3
+
+Wyświetl pracowników, których pensja jest dziesięciokrotnością numeru działu, w którym pracują.
