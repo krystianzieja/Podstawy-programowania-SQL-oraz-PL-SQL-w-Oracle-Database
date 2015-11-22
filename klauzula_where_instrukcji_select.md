@@ -84,3 +84,15 @@ Wyświelt nazwiska (kolumna: LAST_NAME) wszystkich pracowników, którzy pracuj�
 
 ### Konkatenacja klauzulu WHERE
 
+Operacje konkatenacji możnawykorzystać nie tylko liście select, ale również w klauzuli WHERE.
+
+#### Przykład 2.4
+
+Wyświetl nazwisko (kolumna: LAST_NAME) oraz imię (kolumna: FIRST_NAME), dla pracowników dla których komkatenacja kolumn JOB_ID oraz LAST_NAME wynosi SA_REPKing.
+
+```
+select last_name, first_name
+from employees
+where job_id || last_name = 'SA_REPKing';
+```
+
