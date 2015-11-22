@@ -80,5 +80,5 @@ Wyświelt nazwiska (kolumna: LAST_NAME) wszystkich pracowników, którzy pracuj�
 
 #### Zadanie 2.5
 
-Wyświelt nazwiska (kolumna: LAST_NAME) wszystkich pracowników, którzy pracują na stanowisku 'Sa_Rep'.
+Wyświelt nazwiska (kolumna: LAST_NAME) wszystkich pracowników, którzy pracują na stanowisku 'SA_REP'.
 
