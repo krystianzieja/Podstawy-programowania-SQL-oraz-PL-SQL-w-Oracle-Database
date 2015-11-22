@@ -14,10 +14,14 @@ Pierwszym jest podanie specyfikacji połączenia podczas uruchomienie SQL*Plus'a
 sqlplus urzytkownik/haslo@net-service-name
 ```
 
-Przykład 0.1
+Jeżeli jesteśmy zalogowanie na serwerze, na którym jest zainstalowana baza danych i jest ustawiona zmienna środowiskowa ORACLE_SID, @net-service-name można pominąć, gdyż Oracle wykorzystuje wtedy IPC (Inter Process Communication).
+
+#### Przykład 0.1
+
+Połącz się z lokalną bazą danych.
 
 ```
-
+sqlplus hr/hr
 ```
 
 W SQL*Plus każde polecenie należy zakończyć znakiem terminatora: „;” lub „/” w nowej linni.
