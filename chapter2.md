@@ -475,3 +475,12 @@ Name | Null | Type
 --| -- | --
 REGION_ID |  NOT NULL | NUMBER       
 REGION_NAME |         | VARCHAR2(25) 
+
+
+Projektując relacyjną bazę danych należy zawsze zwrócić uwagę na specyfikacje, które kolumny określimy jako akceptujące wartość NULL. Rozważmy poniższy przykład.
+
+```
+insert into regions(region_id, region_name) values(99, NULL);
+```
+
+Powyższa instrukcja jest poprawna
