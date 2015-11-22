@@ -67,3 +67,5 @@ from employees
 where salary = 90 * department_id;
 ```
 
+Rezultat:
+
