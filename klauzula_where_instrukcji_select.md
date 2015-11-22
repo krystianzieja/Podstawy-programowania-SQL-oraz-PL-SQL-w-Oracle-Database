@@ -18,4 +18,10 @@ from countries
 where country_id = 'MX';
 ```
 
+Rezultat:
+
+| COUNTRY_NAME |
+| -- |
+| Mexico |
+
 
