@@ -399,3 +399,22 @@ where job_id = 'SA_REP';
 
 Rezultat:
 
+LAST_NAME|JOB_ID
+-- | --
+Abel|SA_REP
+Ande|SA_REP
+Banda|SA_REP
+Bates|SA_REP
+Bernstein|SA_REP
+Bloom|SA_REP
+Cambrault|SA_REP
+Doran|SA_REP
+Fox|SA_REP
+Grant|SA_REP
+Greene|SA_REP
+Hall|SA_REP
+Hutton|SA_REP
+Johnson|SA_REP
+King|SA_REP
+Kumar|SA_REP
+... | ...
