@@ -1,0 +1,2 @@
+# Klauzula WHERE instrukcji SELECT
+
