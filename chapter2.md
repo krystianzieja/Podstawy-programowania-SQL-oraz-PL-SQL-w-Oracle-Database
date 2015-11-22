@@ -512,3 +512,9 @@ Bernstein|9500|0.25
 
 W tym przypadku kolumna COMMISSION_PCT może przyjmować wartości NULL, i ma to sens, gdyż prowizja może być nieokreślona. Alternatywnym rozwiązaniem jest specyfikacja kolumny COMMISSION_PCT jako NOT NULL, wtedy dla wszystkich pracowników, którzy nie mają określonej prowizji, należałoby wstawić wartość 0 w tej kolumnie.
 
+Z wartością NULL związana jest jeszcze jedna istotna właściwość: artmetyczna kalkulacja z wartością NULL, zwraca zawsze NULL.
+
+#### Przykład 1.16
+
+Oblicz pobory pracownika, czyli pensję powiększoną o prowizję.
+
