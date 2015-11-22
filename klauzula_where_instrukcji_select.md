@@ -74,3 +74,11 @@ LAST_NAME|SALARY|DEPARTMENT_ID
 Faviet|9000|100
 Marvins|7200|80
 
+#### Zadanie 2.4
+
+Wyświelt nazwiska (kolumna: LAST_NAME) wszystkich pracowników, którzy pracują na stanowisku 'Sa_Rep'.
+
+#### Zadanie 2.5
+
+Wyświelt nazwiska (kolumna: LAST_NAME) wszystkich pracowników, którzy pracują na stanowisku 'Sa_Rep'.
+
