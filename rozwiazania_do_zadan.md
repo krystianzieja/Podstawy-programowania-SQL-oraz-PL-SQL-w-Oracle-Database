@@ -377,3 +377,24 @@ King|Janette|10000
 Bloom|Harrison|10000
 Baer|Hermann|10000
 
+#### Zadanie 2.2
+
+```
+select last_name, job_id
+from employees
+where job_id = 'Sa_Rep';
+```
+
+Rezultat:
+
+no rows selected
+
+#### Zadanie 2.3
+
+```
+select last_name, job_id
+from employees
+where job_id = 'Sa_Rep';
+```
+
+Rezultat:
