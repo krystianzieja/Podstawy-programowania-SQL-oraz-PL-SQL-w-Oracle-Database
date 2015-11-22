@@ -36,6 +36,22 @@ SQL>exit
 
 Po uruchomieniu SQL*Plus podajemy polecenia w prompt'cie SQL*Plus'a, który domyślnie jest oznaczony jako *SQL>*. W celu zamknięcia SQL*Plus'a możemy wykorzystać polecenia quit lub exit.
 
-Drugim sposobem połączenia się z bazą danych korzystając z SQL*Plus, Jest uruchomienie SQL*Plus'a bez podawania specyfikacji połączenia Jeżeli chcemy uruchomić SQL*Plus bez spec
+Drugim sposobem połączenia się z bazą danych korzystając z SQL*Plus, jest uruchomienie SQL*Plus'a bez podawania specyfikacji połączenia. Następnie wykorzystujemy polecenie CONNECT. Polecenie CONNECT wymaga podania takies samej specyfikacji połączenia jak podawana podczas uruchomienia SQLPlus'a.
+
+#### Przykład 0.3
+
+Uruchom narzędzie SQL*Plus bez logowania się do bazy danych, a następnie połącz się do bazy danych, korzystając z polecenia CONNECT.
+
+```
+sqlplus /nolog
+
+SQL*Plus: Release 11.2.0.1.0 Production on Sun Nov 22 07:23:05 2015
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+SQL> connect hr/hr
+
+Connected.
+```
 
 W SQL*Plus każdą instrukcje SQL należy zakończyć znakiem terminatora: „;” lub „/” w nowej linni.
