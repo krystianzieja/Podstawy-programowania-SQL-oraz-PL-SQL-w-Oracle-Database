@@ -24,4 +24,10 @@ Rezultat:
 | -- |
 | Mexico |
 
+#### Przykład 2.2
 
+Wyświetl nazwy państ (kolumna: COUNTRY_NAME) znajdujące się w regionie (kolumna: REGION_ID) o identyfikatorze 3 z tabeli COUNTRIES.
+
+```
+
+```
