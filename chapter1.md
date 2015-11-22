@@ -107,3 +107,8 @@ JOBS
 
 SQL Developer jest narzędziem GUI, wykorzystywanym głównie do programowania baz danych.
 
+#### Przykład 0.6
+
+Połącz się do bazy danych korzystając z SQL Developer'a.
+
+
