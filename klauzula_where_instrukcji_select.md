@@ -47,5 +47,11 @@ Singapore|3
 
 #### Zadanie 2.1
 
+Wyświetl nazwisko (kolumna: LAST_NAME), imię (kolumna: FIRST_NAME) oraz pensję (kolumna: SALARY) pracowników zarabiających 10000.
 
+### Stringi oraz Daty w klauzuli WHERE
 
+* Ciągi znakowe oraz Daty muszą być otoczone pojedyńczym cudzysłowiem. 
+* Oracle przechowuje ciągi znaków z zachowaniem wielkości znaków ("case-sensitive") 
+* Oracle ma wiele formatów daty, więc najbezpieczniej jest zawsze skorzystać z funkcji TO_DATE
+ 
