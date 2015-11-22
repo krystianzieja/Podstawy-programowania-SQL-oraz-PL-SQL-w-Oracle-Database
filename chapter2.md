@@ -485,3 +485,14 @@ insert into regions(region_id, region_name) values(99, NULL);
 
 Powyższa instrukcja jest poprawna strukturalnie, ale jej wykonanie nie ma większego sensu logicznego, gdyż wstawimy nowy region do tabeli REGIONS. Niestety nowy region nie ma żadnej nazwy, więc jego wykorzystanie w aplikacji jest bardzo wątpliwe.
 
+#### Przykład 1.15 
+
+Wybierz nazwisko (kolumna: LAST_NAME), pensję (kolumna: SALARY) oraz prowizję (kolumna: COMMISSION_PCT) z tabeli EMPLOYEES.
+
+```
+select last_name, salary, commission_pct
+from employees;
+```
+
+Rezultat:
+
