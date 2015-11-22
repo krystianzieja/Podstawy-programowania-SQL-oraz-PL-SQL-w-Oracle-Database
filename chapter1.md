@@ -8,6 +8,12 @@ SQL*Plus jest narzędziem działającym w lini poleceń. Jest to podstawowe narz
 
 W SQL*Plus istnieją dwa podstawowe sposoby podłączenia się do bazy danych.
 
+Pierwszym jest podanie specyfikacji połączenia podczas uruchomienie SQL*Plus'a
+
+```
+sqlplus urzytkownik/haslo@net-service-name
+```
+
 Przykład 0.1
 
 ```
