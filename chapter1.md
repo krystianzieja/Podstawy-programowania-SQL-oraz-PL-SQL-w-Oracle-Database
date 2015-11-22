@@ -18,10 +18,19 @@ Jeżeli jesteśmy zalogowanie na serwerze, na którym jest zainstalowana baza da
 
 #### Przykład 0.1
 
-Połącz się z lokalną bazą danych.
+Połącz się z lokalną bazą danych korzystając SQL*Plus.
 
 ```
 sqlplus hr/hr
+SQL>
+```
+
+#### Przykład 0.2
+
+Połącz się z bazą danych korzystając z SQL*Plus i orcl jako Net Service Name.
+
+```
+
 ```
 
 W SQL*Plus każde polecenie należy zakończyć znakiem terminatora: „;” lub „/” w nowej linni.
