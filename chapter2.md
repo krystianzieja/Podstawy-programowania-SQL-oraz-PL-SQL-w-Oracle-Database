@@ -518,3 +518,25 @@ Z wartością NULL związana jest jeszcze jedna istotna właściwość: artmetyc
 
 Oblicz pobory pracownika, czyli pensję powiększoną o prowizję.
 
+```
+select last_name, salary * commission_pct
+from employees;
+```
+
+Rezultat:
+
+LAST_NAME | SALARY*COMMISSION_PCT
+-- | --
+King|
+Kochhar|
+De Haan|
+Hunold|
+Rajs|
+Davies|
+Matos|
+Vargas|
+Russell|5600
+Partners|4050
+Errazuriz|3600
+Cambrault|3300
+Zlotkey|2100
