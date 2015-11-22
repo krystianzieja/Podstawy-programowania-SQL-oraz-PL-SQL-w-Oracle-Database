@@ -509,3 +509,6 @@ Zlotkey|10500|0.2
 Tucker|10000|0.3
 Bernstein|9500|0.25
 .. | .. | ..
+
+W tym przypadku kolumna COMMISSION_PCT może przyjmować wartości NULL, i ma to sens, gdyż prowizja może być nieokreślona. Alternatywnym rozwiązaniem jest specyfikacja kolumny COMMISSION_PCT jako NOT NULL, wtedy dla wszystkich pracowników, którzy nie mają określonej prowizji, należałoby wstawić wartość 0 w tej kolumnie.
+
