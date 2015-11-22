@@ -394,7 +394,8 @@ no rows selected
 ```
 select last_name, job_id
 from employees
-where job_id = 'Sa_Rep';
+where job_id = 'SA_REP';
 ```
 
 Rezultat:
+
