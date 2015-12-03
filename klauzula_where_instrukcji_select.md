@@ -111,3 +111,13 @@ Wykorzystując w Oracle kolumny z typem danych DATE, należy pamiętać o kilku 
 
 Domyślny format danych może zostać zmieniony dla całej instancji, albo dla sesji.
 Format ustawiony na instancji będzie działał dla wszystkich sesji, ustawienie dla sesji będzie działać tylko dla bieżącej sesji do momentu jej rozłączenia lub ponownej zmiany formatu daty dla sesji.
+
+#### Przykład 2.5
+
+Aby sprawdzić bierzące ustawienie formatu daty dla sesji należy skorzystać z NLS_SESSION_PARAMETERS.
+
+```
+select parameter, value
+from nls_session_parameters
+where parameter = 'NLS_DATE_FORMAT'
+```
