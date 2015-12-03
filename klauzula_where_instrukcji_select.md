@@ -98,3 +98,5 @@ where job_id || last_name = 'SA_REPKing';
 
 #### Zadanie 2.4
 
+Wyświetl imię (kolumna: FIRST_NAME), nazwisko (kolumna: LAST_NAME), oraz pensję (kolumna: SALARY) dla pracowników z tabeli EMPLOYEES dla, których konkatenacja imienia oraz nazwiska to 'Steve King'. 
+
