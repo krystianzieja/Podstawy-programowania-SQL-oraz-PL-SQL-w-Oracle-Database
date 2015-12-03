@@ -100,3 +100,12 @@ where job_id || last_name = 'SA_REPKing';
 
 Wyświetl imię (kolumna: FIRST_NAME), nazwisko (kolumna: LAST_NAME), oraz pensję (kolumna: SALARY) dla pracowników z tabeli EMPLOYEES dla, których konkatenacja imienia oraz nazwiska to 'Steven King'. 
 
+### Daty w bazie danych Oracle
+
+Wykorzystując w Oracle kolumny z typem danych DATE, należy pamiętać o kilku rzeczach:
+
+* Ciąg znakowy reprezentujący datę należy otoczyć pojedyńczymi znakami cudzysłowia, np. '11-Dec-15'
+* Data w Oracle jest przechowywana jako liczba
+* Oracle wykona automatyczną konwersje ciągu znakowego na typ danych typu DATE, korzystając z domyślnego formatu DD-MON-RR
+* RR jest odpowiedzialny za rok. Jeżeli RR > 50 doczepiamy poprzednie stulecie np. 99 daje 1999. W przeciwnym razie bieżace 19 daje 2019.
+
