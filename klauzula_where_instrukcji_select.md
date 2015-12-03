@@ -121,3 +121,9 @@ select parameter, value
 from nls_session_parameters
 where parameter = 'NLS_DATE_FORMAT'
 ```
+
+Rezultat:
+
+PARAMETER|VALUE
+--|--
+NLS_DATE_FORMAT|DD-MON-RR
