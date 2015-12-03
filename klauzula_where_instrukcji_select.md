@@ -109,3 +109,5 @@ Wykorzystując w Oracle kolumny z typem danych DATE, należy pamiętać o kilku 
 * Oracle wykona automatyczną konwersje ciągu znakowego na typ danych typu DATE, korzystając z domyślnego formatu DD-MON-RR
 * RR jest odpowiedzialny za rok. Jeżeli RR > 50 doczepiamy poprzednie stulecie np. 99 daje 1999. W przeciwnym razie bieżace 19 daje 2019.
 
+Domyślny format danych może zostać zmieniony dla całej instancji, albo dla sesji.
+Format ustawiony na instancji będzie działał dla wszystkich sesji, ustawienie dla sesji będzie działać tylko dla bieżącej sesji do momentu jej rozłączenia lub ponownej zmiany formatu daty dla sesji.
