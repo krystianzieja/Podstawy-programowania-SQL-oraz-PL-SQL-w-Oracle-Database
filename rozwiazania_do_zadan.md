@@ -419,3 +419,17 @@ King|SA_REP
 Kumar|SA_REP
 ... | ...
 
+
+#### Zadanie 2.4
+
+```
+select first_name, last_name, salary
+from employees
+where first_name || ' ' || last_name = 'Steven King';
+```
+
+Rezultat:
+
+FIRST_NAME|LAST_NAME|SALARY
+-- | -- | --
+Steven|King|24000
