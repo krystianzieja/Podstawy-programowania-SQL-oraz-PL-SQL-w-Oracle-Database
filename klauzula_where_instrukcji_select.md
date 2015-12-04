@@ -231,5 +231,5 @@ Wybierz nazwiska (kolumna: LAST_NAME) oraz prowizję (kolumna: COMMISSION_PCT) z
 
 #### Zadanie 2.13
 
-Wybierz imiona (kolumna: FIRST_NAME) oraz nazwiska (kolumna: LAST_NAME) z tabeli EMPLOYEES pracowników dla, których numer działu (kolumna: DEPARTMENT_ID) nie jest stukrotnością ich pensji.
+Wybierz imiona (kolumna: FIRST_NAME) oraz nazwiska (kolumna: LAST_NAME) z tabeli EMPLOYEES pracowników dla, których stukrotność ich pensji (kolumna: SALARY) nie jest równa ich numerowi działu (kolumna: DEPARTMENT_ID).
 
