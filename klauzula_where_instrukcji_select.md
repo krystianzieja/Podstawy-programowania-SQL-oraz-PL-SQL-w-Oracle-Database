@@ -235,5 +235,9 @@ Wybierz imiona (kolumna: FIRST_NAME) oraz nazwiska (kolumna: LAST_NAME) z tabeli
 
 #### Zadanie 2.14
 
-Wybierz numery pracowników (kolumna: EMPLOYEE_ID) oraz datę początku pracy (kolumna: START_DATE). którzy zaczeli pracować po 1-szym lutego 2002 roku.
+Wybierz numery pracowników (kolumna: EMPLOYEE_ID) oraz datę początku pracy (kolumna: START_DATE). którzy zaczeli pracować po 1-szym lutego 2002 roku. Tabela JOB_HISTORY.
+
+#### Zadanie 2.15
+
+Wyświetl listę działów, których nazwa (kolumna: DEPARTMENT_NAME) jest inna niż IT z tabeli DEPARTMENTS.
 
