@@ -301,6 +301,33 @@ Operator BETWEEN jest operatorem zakresowym, czyli pozwala wybrać rekordy speł
 Wybierz nazwisko (kolumna: LAST_NAME) oraz pensję (kolumna: SALARY) pracowników zarabiających pomiędzy 3000, a 4000 z tabeli EMPLOYEES. Wykorzystaj operator BETWEEN.
 
 ```
-
+select last_name, salary
+from employees
+where salary between 3000 and 4000;
 ```
+
+Rezultat:
+
+LAST_NAME|SALARY
+-- | --
+Khoo|3100
+Nayer|3200
+Bissot|3300
+Mallin|3300
+Ladwig|3600
+Stiles|3200
+Rajs|3500
+Davies|3100
+Taylor|3200
+Fleaur|3100
+Dellinger|3400
+Cabrio|3000
+Chung|3800
+Dilly|3600
+Bell|4000
+Everett|3900
+McCain|3200
+Walsh|3100
+Feeney|3000
+
 
