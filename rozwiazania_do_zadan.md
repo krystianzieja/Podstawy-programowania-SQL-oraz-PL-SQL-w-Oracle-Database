@@ -478,3 +478,6 @@ where start_date + 30 = '12-FEB-01';
 
 Rezultat:
 
+EMPLOYEE_ID|START_DATE+30
+--|--
+102|12-FEB-01
