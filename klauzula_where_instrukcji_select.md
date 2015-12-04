@@ -245,7 +245,7 @@ Operatory <, >, <=, >= mogą zostać również do ciągów znakowych.
 
 #### Przykład 2.8
 
-Wybierz nazwiska pracowników z tabeli
+Wybierz nazwiska pracowników z tabeli, które są mniejsze niż Bell.
 
 ```
 select last_name 
@@ -267,4 +267,10 @@ Rezultat:
 | Bates |
 
 
-W takiej sytuacji ciąg znakowy jest konwertowany do wartości numerycznej znak po znaku. Uwaga!!! Wielkość znaków ma znaczenie, czyli 'b' != 'B'
+W takiej sytuacji ciąg znakowy jest konwertowany do wartości numerycznej znak po znaku. Uwaga!!! Wielkość znaków ma znaczenie, czyli 'b' != 'B'.
+
+
+#### Przykład 2.9
+
+Wybierz nazwiska pracowników z tabeli, które są mniejsze niż bell.
+
