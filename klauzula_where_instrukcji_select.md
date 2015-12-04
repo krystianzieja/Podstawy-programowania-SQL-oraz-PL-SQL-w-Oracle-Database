@@ -181,7 +181,7 @@ Kochhar|21-09-2005
 
 #### Zadanie 2.5
 
-Zmień format daty dla sessji na dd-mon-rr.
+Zmień format daty dla sessji na DD-MON-RR.
 
 
 #### Zadanie 2.6
