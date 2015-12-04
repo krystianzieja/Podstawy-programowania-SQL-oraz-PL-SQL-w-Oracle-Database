@@ -591,3 +591,18 @@ EMPLOYEE_ID|START_DATE
 
 #### Zadanie 2.15
 
+```
+select department_name
+from departments
+where department_name != 'IT';
+```
+
+Rezultat:
+
+| DEPARTMENT_NAME |
+| -- |
+| Administration |
+| Marketing |
+| Purchasing |
+| ... |
+
