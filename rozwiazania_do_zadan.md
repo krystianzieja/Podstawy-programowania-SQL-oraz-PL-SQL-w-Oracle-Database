@@ -541,3 +541,21 @@ Smith|0.3
 Doran|0.3
 Abel|0.3
 
+#### Zadanie 2.12
+
+```
+select last_name, commission_pct
+from employees
+where commission_pct <= 0.1;
+```
+
+Rezultat:
+
+LAST_NAME|COMMISSION_PCT
+--|--
+Marvins|0.1
+Lee|0.1
+Ande|0.1
+Banda|0.1
+Kumar|0.1
+Johnson|0.1
