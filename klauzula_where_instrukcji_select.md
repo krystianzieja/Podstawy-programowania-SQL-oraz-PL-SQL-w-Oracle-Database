@@ -290,3 +290,4 @@ Rezultat:
 | Whalen |
 | Zlotkey |
 
+Jak widać 
