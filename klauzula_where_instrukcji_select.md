@@ -330,4 +330,7 @@ McCain|3200
 Walsh|3100
 Feeney|3000
 
+UWAGA!!! W operatorze BETWEEN podane zakresy wchodzą jako spełniające warunek, czyli BETWEEN AND przekłada się na >=, <=.
+
+
 
