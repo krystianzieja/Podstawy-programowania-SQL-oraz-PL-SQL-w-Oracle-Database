@@ -188,3 +188,7 @@ Zmień format daty dla sessji na dd-mon-rr.
 
 Wybierz numery pracowników (kolumna: EMPLOYEE_ID), nadaj tej kolumnie alias numer pracownika, z tabeli JOB_HISTORY, którzy zaczeli pracować (kolumna: START_DATE) 13 stycznia 2001 roku.
 
+#### Zadanie 2.7
+
+Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli i zakończyli pracę tego samego dnia z tabeli JOB_HISTORY.
+
