@@ -241,3 +241,30 @@ Wybierz numery pracowników (kolumna: EMPLOYEE_ID) oraz datę początku pracy (k
 
 Wyświetl listę działów, których nazwa (kolumna: DEPARTMENT_NAME) jest inna niż IT z tabeli DEPARTMENTS.
 
+Operatory <, >, <=, >= mogą zostać również do ciągów znakowych.
+
+#### Przykład 2.8
+
+Wybierz nazwiska pracowników z tabeli
+
+```
+select last_name 
+from employees
+where last_name < 'Bell';
+```
+
+Rezultat:
+
+| LAST_NAME |
+| -- |
+| Abel |
+| Ande |
+| Atkinson |
+| Austin |
+| Baer |
+| Baida |
+| Banda |
+| Bates |
+
+
+W takiej sytuacji ciąg znakowy jest konwertowany do wartości numerycznej znak po znaku. Uwaga!!! Wielkość znaków ma znaczenie, czyli 'b' != 'B'
