@@ -127,3 +127,54 @@ Rezultat:
 PARAMETER|VALUE
 --|--
 NLS_DATE_FORMAT|DD-MON-RR
+
+W celu zmiany formatu dla sessji należy wykorzystać instrukcję ALTER SESSION. Zmiana ustawień na poziomie instancji wymaga uprawnień administratora.
+
+#### Przykład 2.6
+
+Wyświetl nazwisko (kolumna: LAST_NAME) oraz datę zatrudnienia (kolumna: HIRE_DATE) dla pracowników zatrudnionych 21-go września 2005 roku - wykorzystaj format daty '21-10-2005'
+
+```
+select last_name, hire_date
+from employees
+where hire_date = '21-09-2005'
+```
+
+Rezultat:
+
+```
+ORA-01843: not a valid month
+01843. 00000 -  "not a valid month"
+*Cause:    
+*Action:
+```
+
+Alternatywną opcją wykorzystania innego formatu daty jest wykorzystanie funkcji TO_DATE.
+
+
+#### Przykład 2.7
+
+Zmień format daty dla sesji na dd-mm-yyyy i wykonaj ponownie zadanie z przykładu 2.6
+
+```
+alter session set nls_date_format = 'dd-mm-yyyy';
+```
+
+Rezultat:
+
+```
+session SET altered.
+```
+
+```
+select last_name, hire_date
+from employees
+where hire_date = '21-09-2005';
+```
+
+Rezultat:
+
+LAST_NAME|HIRE_DATE
+--|--
+Kochhar|21-09-2005
+
