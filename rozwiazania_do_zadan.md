@@ -455,3 +455,9 @@ select employee_id "numer pracownika"
 from job_history
 where start_date = '13-JAN-2001';
 ```
+
+#### Zadanie 2.7
+
+```
+
+```
