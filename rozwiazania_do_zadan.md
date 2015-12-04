@@ -499,3 +499,6 @@ King|24000
 Kochhar|17000
 De Haan|17000
 Hunold|9000
+
+#### Zadanie 2.10
+
