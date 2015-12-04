@@ -214,3 +214,8 @@ Operator | Znaczenie
 
 Wybierz nazwiska (kolumna: LAST_NAME) oraz pensje (kolumna: SALARY) z tabeli EMPLOYEES, pracowników zarabiających więcej niż 5000.
 
+#### Zadanie 2.10
+
+Wybierz nazwiska (kolumna: LAST_NAME) oraz pensje (kolumna: SALARY) z tabeli EMPLOYEES, pracowników zarabiających mniej niż 4000.
+
+
