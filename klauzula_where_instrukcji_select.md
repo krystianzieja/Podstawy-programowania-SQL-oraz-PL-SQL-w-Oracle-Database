@@ -190,5 +190,12 @@ Wybierz numery pracowników (kolumna: EMPLOYEE_ID), nadaj tej kolumnie alias num
 
 #### Zadanie 2.7
 
-Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli i zakończyli pracę tego samego dnia z tabeli JOB_HISTORY.
+Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli i zakończyli pracę tego samego dnia (kolumny: START_DATE, END_DATE) z tabeli JOB_HISTORY.
 
+#### Zadanie 2.8
+
+Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli pracować 30 dni przed 1-szym stycznia 2002 roku.
+
+```
+
+```
