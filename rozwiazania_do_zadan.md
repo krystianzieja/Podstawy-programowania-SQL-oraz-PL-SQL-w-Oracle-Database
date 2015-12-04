@@ -438,7 +438,7 @@ Steven|King|24000
 #### Zadanie 2.5
 
 ```
-alter session set nls_date_format = 'dd-mon-rr';
+alter session set nls_date_format = 'DD-MON-RR';
 
 ```
 
@@ -467,3 +467,14 @@ where start_date = end_date;
 Rezultat:
 
 No rows returned.
+
+#### Zadanie 2.8
+
+```
+select employee_id, start_date+30
+from job_history
+where start_date + 30 = '12-FEB-01';
+```
+
+Rezultat:
+
