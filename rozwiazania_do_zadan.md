@@ -481,3 +481,21 @@ Rezultat:
 EMPLOYEE_ID|START_DATE+30
 --|--
 102|12-FEB-01
+
+
+#### Zadanie 2.9
+
+```
+select last_name, salary
+from employees
+where salary > 5000;
+```
+
+Rezultat:
+
+LAST_NAME|SALARY
+--|--
+King|24000
+Kochhar|17000
+De Haan|17000
+Hunold|9000
