@@ -280,3 +280,13 @@ from employees
 where last_name < 'bell';
 ```
 
+Rezultat:
+
+| LAST_NAME |
+| -- |
+| Abel |
+| Ande |
+| ... |
+| Whalen |
+| Zlotkey |
+
