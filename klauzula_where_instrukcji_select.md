@@ -219,3 +219,5 @@ Wybierz nazwiska (kolumna: LAST_NAME) oraz pensje (kolumna: SALARY) z tabeli EMP
 Wybierz nazwiska (kolumna: LAST_NAME) oraz pensje (kolumna: SALARY) z tabeli EMPLOYEES, pracowników zarabiających mniej niż 4000.
 
 
+#### Zadanie 2.11
+
