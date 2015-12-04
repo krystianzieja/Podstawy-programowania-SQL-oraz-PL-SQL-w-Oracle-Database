@@ -221,6 +221,10 @@ Wybierz nazwiska (kolumna: LAST_NAME) oraz pensje (kolumna: SALARY) z tabeli EMP
 
 #### Zadanie 2.11
 
-Wybierz nazwiska (kolumna: LAST_NAME) oraz prowizję (kolumna: COMMISSION_PCT) z tabeli EMPLOYEES, pracowników mających prowizję większą niż 0.3
+Wybierz nazwiska (kolumna: LAST_NAME) oraz prowizję (kolumna: COMMISSION_PCT) z tabeli EMPLOYEES, pracowników mających prowizję większą lub równą 0.3
 
+
+#### Zadanie 2.12
+
+Wybierz nazwiska (kolumna: LAST_NAME) oraz prowizję (kolumna: COMMISSION_PCT) z tabeli EMPLOYEES, pracowników mających prowizję mniejszą lub równą 0.1
 
