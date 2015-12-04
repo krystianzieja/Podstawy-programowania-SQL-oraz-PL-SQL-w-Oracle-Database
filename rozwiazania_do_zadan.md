@@ -459,5 +459,11 @@ where start_date = '13-JAN-2001';
 #### Zadanie 2.7
 
 ```
-
+select employee_id 
+from job_history
+where start_date = end_date;
 ```
+
+Rezultat:
+
+No rows returned.
