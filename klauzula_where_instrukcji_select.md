@@ -179,7 +179,7 @@ LAST_NAME|HIRE_DATE
 Kochhar|21-09-2005
 
 
-#### Zadanie 2.8
+#### Zadanie 2.5
 
 Zmień format daty dla sessji na dd-mon-rr.
 
