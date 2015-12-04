@@ -524,3 +524,19 @@ select last_name, commission_pct
 from employees
 where commission_pct >= 0.3
 ```
+
+Rezultat:
+
+LAST_NAME|COMMISSION_PCT
+-- | --
+Russell|0.4
+Partners|0.3
+Errazuriz|0.3
+Cambrault|0.3
+Tucker|0.3
+King|0.35
+Sully|0.35
+McEwen|0.35
+Smith|0.3
+Doran|0.3
+Abel|0.3
