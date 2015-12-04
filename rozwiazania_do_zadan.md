@@ -447,3 +447,11 @@ Rezultat:
 ```
 session SET altered.
 ```
+
+#### Zadanie 2.6
+
+```
+select employee_id "numer pracownika"
+from job_history
+where start_date = '13-JAN-2001';
+```
