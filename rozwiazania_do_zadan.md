@@ -568,3 +568,14 @@ select first_name, last_name
 from employees
 where salary != department_id * 100;
 ```
+
+#### Zadanie 2.14
+
+```
+select employee_id, start_date
+from job_history
+where start_date > '01-FEB-2002';
+```
+
+Rezultat:
+
