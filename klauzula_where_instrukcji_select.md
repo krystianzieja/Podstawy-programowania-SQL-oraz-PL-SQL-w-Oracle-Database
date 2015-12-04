@@ -233,3 +233,7 @@ Wybierz nazwiska (kolumna: LAST_NAME) oraz prowizję (kolumna: COMMISSION_PCT) z
 
 Wybierz imiona (kolumna: FIRST_NAME) oraz nazwiska (kolumna: LAST_NAME) z tabeli EMPLOYEES pracowników dla, których wartość ich pensji (kolumna: SALARY) nie jest równa ich stukrotności numeru działu (kolumna: DEPARTMENT_ID), w którym pracują.
 
+#### Zadanie 2.14
+
+Wybierz numery pracowników (kolumna: EMPLOYEE_ID) oraz datę początku pracy (kolumna: START_DATE). którzy zaczeli pracować po 1-szym lutego 2002 roku.
+
