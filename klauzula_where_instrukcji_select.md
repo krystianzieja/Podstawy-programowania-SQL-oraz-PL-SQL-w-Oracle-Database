@@ -210,3 +210,7 @@ Operator | Znaczenie
 <> | Różne
 != | Różne
 
+#### Zadanie 2.9
+
+Wybierz nazwiska (kolumna: LAST_NAME) oraz pensje (kolumna: SALARY) z tabeli EMPLOYEES, pracowników zarabiających więcej niż 5000.
+
