@@ -228,3 +228,8 @@ Wybierz nazwiska (kolumna: LAST_NAME) oraz prowizję (kolumna: COMMISSION_PCT) z
 
 Wybierz nazwiska (kolumna: LAST_NAME) oraz prowizję (kolumna: COMMISSION_PCT) z tabeli EMPLOYEES, pracowników mających prowizję mniejszą lub równą 0.1
 
+
+#### Zadanie 2.13
+
+Wybierz imiona (kolumna: FIRST_NAME) oraz nazwiska (kolumna: LAST_NAME) z tabeli EMPLOYEES pracowników dla, których numer działu (kolumna: DEPARTMENT_ID) nie jest stukrotnością ich pensji.
+
