@@ -502,3 +502,16 @@ Hunold|9000
 
 #### Zadanie 2.10
 
+```
+select last_name, salary
+from employees
+where salary < 4000;
+```
+
+LAST_NAME|SALARY
+--|--
+Khoo|3100
+Baida|2900
+Tobias|2800
+Himuro|2600
+Colmenares|2500
