@@ -183,3 +183,8 @@ Kochhar|21-09-2005
 
 Zmień format daty dla sessji na dd-mon-rr.
 
+
+#### Zadanie 2.6
+
+Wybierz numery pracowników (kolumna: EMPLOYEE_ID), nadaj tej kolumnie alias numer pracownika, z tabeli JOB_HISTORY, którzy zaczeli pracować (kolumna: START_DATE) 13 stycznia 2001 roku.
+
