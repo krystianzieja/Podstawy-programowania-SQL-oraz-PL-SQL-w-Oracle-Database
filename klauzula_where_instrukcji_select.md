@@ -290,4 +290,5 @@ Rezultat:
 | Whalen |
 | Zlotkey |
 
-Jak widać 
+Jak widać wszystkie rekordy zostały zwrócone, dlatego, że wszystkie wielkie litery alfabetu mają mniejszą wartość numeryczną niż małe litery.
+
