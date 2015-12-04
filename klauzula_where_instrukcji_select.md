@@ -292,13 +292,13 @@ Rezultat:
 
 Jak widać wszystkie rekordy zostały zwrócone, dlatego, że wszystkie wielkie litery alfabetu mają mniejszą wartość numeryczną niż małe litery.
 
-## Operator BETWEEN
+## Operator BETWEEN AND
 
 Operator BETWEEN jest operatorem zakresowym, czyli pozwala wybrać rekordy spełniajace warunke "od" "do".
 
 #### Przykład 2.10
 
-Wybierz nazwisko (kolumna: LAST_NAME) oraz pensję (kolumna: SALARY) pracowników zarabiających pomiędzy 3000, a 4000 z tabeli EMPLOYEES. Wykorzystaj operator BETWEEN.
+Wybierz nazwisko (kolumna: LAST_NAME) oraz pensję (kolumna: SALARY) pracowników zarabiających pomiędzy 3000, a 4000 z tabeli EMPLOYEES. Wykorzystaj operator BETWEEN AND.
 
 ```
 select last_name, salary
