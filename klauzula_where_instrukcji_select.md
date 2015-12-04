@@ -332,5 +332,19 @@ Feeney|3000
 
 UWAGA!!! W operatorze BETWEEN podane zakresy wchodzą jako spełniające warunek, czyli BETWEEN AND przekłada się na >=, <=.
 
+Operator BETWEEN może zostać również wykorzystany przy pracy z datami.
 
+#### Przykład 2.11
 
+Wyberz numer pracownika (kolumna EMPLOYEE_ID), oraz datę początku pracy (kolumna: START_DATE) z tabeli JOB_HISTORY, którzy zaczeli pracę pomiędzy 1-szym czerwca 2001, a 1-szym czerwca 2003.
+
+```
+select employee_id, start_date
+from job_history
+where start_date between '01-JUN-01' and '01-JUN-03';
+```
+
+EMPLOYEE_ID|START_DATE
+--|--
+101|28-OCT-01
+200|01-JUL-02
