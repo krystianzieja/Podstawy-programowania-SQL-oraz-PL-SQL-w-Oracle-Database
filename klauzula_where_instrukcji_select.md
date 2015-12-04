@@ -274,3 +274,9 @@ W takiej sytuacji ciąg znakowy jest konwertowany do wartości numerycznej znak 
 
 Wybierz nazwiska pracowników z tabeli, które są mniejsze niż bell.
 
+```
+select last_name 
+from employees
+where last_name < 'bell';
+```
+
