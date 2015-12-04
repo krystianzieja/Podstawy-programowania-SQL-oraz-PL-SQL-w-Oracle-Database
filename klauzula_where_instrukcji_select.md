@@ -197,3 +197,16 @@ Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli i zakończyl
 Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli pracować 30 dni przed 12-tego lutego 2001 roku.
 
 
+## Operatory w klauzuli WHERE
+
+Oprócz operatora równości w klauzuli WHERE możemy zastosować inne operatory.
+
+Operator | Znaczenie
+-- | --
+< | Mniejsze
+> | Większe
+<= | Mniejsze równe
+>= | Większe równe
+<> | Różne
+!= | Różne
+
