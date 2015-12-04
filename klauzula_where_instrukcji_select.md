@@ -196,6 +196,4 @@ Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli i zakończyl
 
 Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli pracować 30 dni przed 12-tego lutego 2001 roku.
 
-```
 
-```
