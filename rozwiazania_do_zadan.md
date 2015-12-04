@@ -559,3 +559,12 @@ Ande|0.1
 Banda|0.1
 Kumar|0.1
 Johnson|0.1
+
+
+#### Zadanie 2.13
+
+```
+select first_name, last_name 
+from employees
+where salary != department_id * 100;
+```
