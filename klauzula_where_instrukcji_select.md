@@ -194,7 +194,7 @@ Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli i zakończyl
 
 #### Zadanie 2.8
 
-Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli pracować 30 dni przed 1-szym stycznia 2002 roku.
+Wybierz numery pracowników (kolumna: EMPLOYEE_ID), którzy zaczeli pracować 30 dni przed 12-tego lutego 2001 roku.
 
 ```
 
