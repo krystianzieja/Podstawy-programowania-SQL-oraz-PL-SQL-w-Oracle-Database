@@ -433,3 +433,17 @@ Rezultat:
 FIRST_NAME|LAST_NAME|SALARY
 -- | -- | --
 Steven|King|24000
+
+
+#### Zadanie 2.5
+
+```
+alter session set nls_date_format = 'dd-mon-rr';
+
+```
+
+Rezultat:
+
+```
+session SET altered.
+```
