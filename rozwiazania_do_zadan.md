@@ -515,3 +515,12 @@ Baida|2900
 Tobias|2800
 Himuro|2600
 Colmenares|2500
+
+
+#### Zadanie 2.11
+
+```
+select last_name, commission_pct
+from employees
+where commission_pct >= 0.3
+```
