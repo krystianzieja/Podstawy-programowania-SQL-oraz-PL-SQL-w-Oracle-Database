@@ -353,3 +353,24 @@ EMPLOYEE_ID|START_DATE
 
 Wyświetl numery (kolumna: DEPARTMENT_ID) oraz nazwy działów (kolumna: DEPARTMENT_NAME) z tabeli DEPARTMENTS, działów mających numery pomiędzy 30, a 50.
 
+## Operator IN
+
+Operator IN sprawdza czy wartość znajduje się w podanym zbiorze.
+
+#### Przykład 2.12
+
+Wybierz pracowników zarabiających 1000, 2000, 4000 z tabeli EMPLOYEES.
+
+```
+select first_name, last_name, salary
+from employees
+where salary in (1000, 2000, 4000);
+```
+
+Rezultat:
+
+FIRST_NAME|LAST_NAME|SALARY
+-- | -- | --
+Sarah|Bell|4000
+
+
