@@ -476,3 +476,9 @@ Steven|King
 
 Wyświetl imiona i nazwiska pracowników z tabeli EMPLOYEES, którzy mają czteroliterowe nazwisko zaczynające się na K a kończące na ing korzystając z operatora LIKE.
 
+```
+select first_name, last_name
+from employees
+where last_name like 'K_ng';
+```
+
