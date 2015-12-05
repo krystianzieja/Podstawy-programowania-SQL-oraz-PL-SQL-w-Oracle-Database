@@ -472,3 +472,7 @@ Janette|King
 Steven|King
 
 
+#### Przykład 2.21
+
+Wyświetl imiona i nazwiska pracowników z tabeli EMPLOYEES, którzy mają czteroliterowe nazwisko zaczynające się na K a kończące na ing korzystając z operatora LIKE.
+
