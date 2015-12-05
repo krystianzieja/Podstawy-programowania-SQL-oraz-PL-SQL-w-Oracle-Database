@@ -429,7 +429,7 @@ Operator LIKE pozwala przeszukiwać wartości w celu znalezienia wzorca. Pozwala
 * _ - zastępuje jeden znak
  
 
-#### Przykład 2.19
+#### Przykład 2.15
 
 Wyświetl imiona i nazwiska pracowników z tabeli EMPLOYEES, których imiona zaczynają się na A.
 
@@ -454,7 +454,7 @@ Alexander|Khoo
 Allan|McEwen
 Alana|Walsh
 
-#### Przykład 2.20
+#### Przykład 2.16
 
 Wyświetl imiona i nazwiska pracowników z tabeli EMPLOYEES, którzy mają nazwisko King korzystając z operatora LIKE.
 
@@ -472,7 +472,7 @@ Janette|King
 Steven|King
 
 
-#### Przykład 2.21
+#### Przykład 2.17
 
 Wyświetl imiona i nazwiska pracowników z tabeli EMPLOYEES, którzy mają czteroliterowe nazwisko zaczynające się na K a kończące na ing korzystając z operatora LIKE.
 
@@ -486,3 +486,15 @@ FIRST_NAME|LAST_NAME
 --|--
 Janette|King
 Steven|King
+
+
+#### Zadanie 2.19
+
+Wybierz nazwy państw (kolumna: COUNTRY_NAME) z tabeli COUNTRIES, których nazwa zaczyna się na I i zawiera literę a.
+
+#### Zadanie 2.20
+
+Wybierz nazwy państw (kolumna: COUNTRY_NAME) z tabeli COUNTRIES, które mają w swojej nazwie jako drugą literę n a potem zawierają literę s.
+
+
+
