@@ -623,3 +623,20 @@ DEPARTMENT_ID|DEPARTMENT_NAME
 40|Human Resources
 50|Shipping
 
+
+#### Zadanie 2.17
+
+```
+select department_id, department_name
+from departments
+where department_id in (10,20,30);
+```
+
+Rezultat:
+
+DEPARTMENT_ID|DEPARTMENT_NAME
+--|--
+10|Administration
+20|Marketing
+30|Purchasing
+
