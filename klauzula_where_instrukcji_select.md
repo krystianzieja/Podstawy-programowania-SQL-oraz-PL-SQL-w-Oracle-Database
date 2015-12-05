@@ -392,3 +392,23 @@ Sarah|Bell|4000
 Janette|King|10000
 Steven|King|24000
 
+#### Przykład 2.14
+
+Wyświetl nazwiska pracowników i datę ich zatrudnienia (kolumna: HIRE_DATE) zatrudnionych 7-ego czerwca 2002 roku oraz 1-ego grudnia 1999.
+
+```
+select last_name, hire_date
+from employees
+where hire_date in ('07-JUN-02','01-DEC-99');
+```
+
+Rezultat:
+
+LAST_NAME|HIRE_DATE
+--|--
+Mavris|07-JUN-02
+Baer|07-JUN-02
+Higgins|07-JUN-02
+Gietz|07-JUN-02
+
+
