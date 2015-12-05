@@ -482,3 +482,7 @@ from employees
 where last_name like 'K_ng';
 ```
 
+FIRST_NAME|LAST_NAME
+--|--
+Janette|King
+Steven|King
