@@ -677,3 +677,19 @@ Rezultat:
 | Israel |
 | India |
 | Italy |
+
+
+#### Zadanie 2.20
+
+```
+select country_name
+from countries
+where country_name like '_n%s%';
+```
+
+Rezultat:
+
+| COUNTRY_NAME |
+| -- |
+| United States of America |
+
