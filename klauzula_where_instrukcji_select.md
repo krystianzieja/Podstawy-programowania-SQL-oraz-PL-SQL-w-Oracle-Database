@@ -418,3 +418,4 @@ Wyświetl nazwy działów (kolumna: DEPARTMENT_NAME) oraz  numery działów, dla
 
 #### Zadanie 2.18
 
+Wybierz ulicę (kolumna: STREET_ADDRESS), kod pocztowy (kolumna: POSTAL_CODE) oraz miasto (kolumna: CITY) z tabeli LOCATIONS dla miejsc w USA i Wielkiej Brytanii. Wykorzystaj kolumnę COUNTRY_ID i odpowiednie kody państw.
