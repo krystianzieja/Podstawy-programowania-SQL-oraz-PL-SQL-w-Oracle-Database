@@ -377,4 +377,18 @@ Sarah|Bell|4000
 
 Wyświetl imiona, nazwiska oraz pensję pracowników z nazwiskami King, Bell oraz Adel z tabeli EMPLOYEES.
 
+```
+select first_name, last_name, salary
+from employees
+where last_name in ('King', 'Bell', 'Abel');
+```
+
+Rezultat:
+
+FIRST_NAME|LAST_NAME|SALARY
+--|--|--
+Ellen|Abel|11000
+Sarah|Bell|4000
+Janette|King|10000
+Steven|King|24000
 
