@@ -660,3 +660,20 @@ Magdalen Centre, The Oxford Science Park|OX9 9ZB|Oxford
 2011 Interiors Blvd|99236|South San Francisco
 2007 Zagora St|50090|South Brunswick
 2004 Charade Rd|98199|Seattle
+
+
+#### Zadanie 2.19
+
+```
+select country_name
+from countries
+where country_name like 'I%a%';
+```
+
+Rezultat:
+
+| COUNTRY_NAME |
+| -- |
+| Israel |
+| India |
+| Italy |
