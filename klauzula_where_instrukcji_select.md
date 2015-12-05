@@ -412,3 +412,7 @@ Higgins|07-JUN-02
 Gietz|07-JUN-02
 
 
+#### Zadanie 2.17
+
+Wyświetl nazwy działów (kolumna: DEPARTMENT_NAME) dla numerów działów (kolumna: DEPARTMENT_ID) 10,20,30.
+
