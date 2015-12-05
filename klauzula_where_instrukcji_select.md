@@ -419,3 +419,13 @@ Wyświetl nazwy działów (kolumna: DEPARTMENT_NAME) oraz  numery działów, dla
 #### Zadanie 2.18
 
 Wybierz ulicę (kolumna: STREET_ADDRESS), kod pocztowy (kolumna: POSTAL_CODE) oraz miasto (kolumna: CITY) z tabeli LOCATIONS dla miejsc w USA i Wielkiej Brytanii. Wykorzystaj kolumnę COUNTRY_ID i odpowiednie kody państw.
+
+
+## Operator LIKE
+
+Operator LIKE pozwala przeszukiwać wartości w celu znalezienia wzorca. Pozwala on na wykorzystanie znaków WILDCARD, które zastępują inne znaki zgodnie z poniższymi zasadami.
+
+* % - zastępuje 0 lub więcej znaków
+* _ - zastępuje jeden znak
+ 
+
