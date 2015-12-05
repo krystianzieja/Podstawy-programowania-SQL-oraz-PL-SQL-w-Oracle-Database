@@ -606,3 +606,19 @@ Rezultat:
 | Purchasing |
 | ... |
 
+
+#### Zadanie 2.16
+
+```
+select department_id, department_name
+from departments
+where department_id between 30 and 50;
+```
+
+Rezultat:
+
+DEPARTMENT_ID|DEPARTMENT_NAME
+--|--
+30|Purchasing
+40|Human Resources
+50|Shipping
