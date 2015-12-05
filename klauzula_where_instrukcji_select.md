@@ -497,4 +497,26 @@ Wybierz nazwy państw (kolumna: COUNTRY_NAME) z tabeli COUNTRIES, których nazwa
 Wybierz nazwy państw (kolumna: COUNTRY_NAME) z tabeli COUNTRIES, które mają w swojej nazwie jako drugą literę n a potem zawierają literę s.
 
 
+Operator LIKE można wykorzystać również w pracy z datami.
+
+#### Przykład 2.20
+
+Wybierz nazwiska (kolumna LAST_NAME) oraz datę zatrudnienia (kolumna: HIRE_DATE) pracowników zatrudnionych w 2003 roku.
+
+```
+select last_name, hire_date
+from employees
+where hire_date like '%03';
+```
+
+Rezultat:
+
+LAST_NAME|HIRE_DATE
+--|--
+King|17-JUN-03
+Khoo|18-MAY-03
+Kaufling|01-MAY-03
+Ladwig|14-JUL-03
+Rajs|17-OCT-03
+Whalen|17-SEP-03
 
