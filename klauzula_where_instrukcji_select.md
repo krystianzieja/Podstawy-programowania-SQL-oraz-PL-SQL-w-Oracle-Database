@@ -350,3 +350,6 @@ EMPLOYEE_ID|START_DATE
 200|01-JUL-02
 
 #### Zadanie 2.16
+
+Wyświetl numery (kolumna: DEPARTMENT_ID) oraz nazwy działów (kolumna: DEPARTMENT_NAME) z tabeli DEPARTMENTS, działów mających numery pomiędzy 30, a 50.
+
