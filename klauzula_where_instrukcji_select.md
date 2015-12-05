@@ -373,4 +373,8 @@ FIRST_NAME|LAST_NAME|SALARY
 -- | -- | --
 Sarah|Bell|4000
 
+#### Przykład 2.13
+
+Wyświetl imiona, nazwiska oraz pensję pracowników z nazwiskami King, Bell oraz Adel z tabeli EMPLOYYES.
+
 
