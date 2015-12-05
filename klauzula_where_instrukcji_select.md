@@ -454,3 +454,21 @@ Alexander|Khoo
 Allan|McEwen
 Alana|Walsh
 
+#### Przykład 2.20
+
+Wyświetl imiona i nazwiska pracowników z tabeli EMPLOYEES, którzy mają nazwisko King korzystając z operatora LIKE.
+
+```
+select first_name, last_name
+from employees
+where last_name like 'King';
+```
+
+Rezultat:
+
+FIRST_NAME|LAST_NAME
+--|--
+Janette|King
+Steven|King
+
+
