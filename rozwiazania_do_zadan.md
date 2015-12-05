@@ -640,3 +640,23 @@ DEPARTMENT_ID|DEPARTMENT_NAME
 20|Marketing
 30|Purchasing
 
+
+#### Zadanie 2.18
+
+```
+select street_address, postal_code, city
+from locations
+where country_id in ('US','UK');
+```
+
+Rezultat:
+
+STREET_ADDRESS|POSTAL_CODE|CITY
+--|--|--
+8204 Arthur St||London
+Magdalen Centre, The Oxford Science Park|OX9 9ZB|Oxford
+9702 Chester Road|09629850293|Stretford
+2014 Jabberwocky Rd|26192|Southlake
+2011 Interiors Blvd|99236|South San Francisco
+2007 Zagora St|50090|South Brunswick
+2004 Charade Rd|98199|Seattle
