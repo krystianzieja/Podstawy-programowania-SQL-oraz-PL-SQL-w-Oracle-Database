@@ -429,3 +429,28 @@ Operator LIKE pozwala przeszukiwać wartości w celu znalezienia wzorca. Pozwala
 * _ - zastępuje jeden znak
  
 
+#### Przykład 2.19
+
+Wyświetl imiona i nazwiska pracowników z tabeli EMPLOYEES, których imiona zaczynają się na A.
+
+```
+select first_name, last_name
+from employees
+where first_name like 'A%';
+```
+
+Rezultat:
+
+FIRST_NAME|LAST_NAME
+--|--
+Amit|Banda
+Alexis|Bull
+Anthony|Cabrio
+Alberto|Errazuriz
+Adam|Fripp
+Alexander|Hunold
+Alyssa|Hutton
+Alexander|Khoo
+Allan|McEwen
+Alana|Walsh
+
