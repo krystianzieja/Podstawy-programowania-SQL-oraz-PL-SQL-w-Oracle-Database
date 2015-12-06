@@ -11,3 +11,4 @@ Zaprojektuj relacyjną bazę danych, której zadaniem będzie rejestracja badań
 
 #### Zadanie 3
 
+Zaprojektuj relacyjną bazę danych dla firmy prowadzącej szkolenia. Zajęcia są prowadzone przez prowadzących. Każdy z prowadzących może mieć wiele specjalizacji. Zajęcia mają swój uniklany kod, nazwę oraz cenę. Baza musi przechowywać pełną informację o uczestnikach (imię, nazwisko, pesel, pełen adres). Każde zajęcia mają zdefiniowany terminarz, z początkiem i konćem zajęć. Zajęcia mogą być jednorazowe, lub odbywać się wielokrotniw (w tym przypadku w terminarzu występuje wiele wpisów).
