@@ -540,3 +540,10 @@ Ladwig|14-JUL-03
 Rajs|17-OCT-03
 Whalen|17-SEP-03
 
+## Operator IS NULL
+
+Operator IS NULL pozwala sprawdzić czy wartość jest równa NULL.
+
+#### Przykład 2.21
+
+
