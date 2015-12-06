@@ -497,6 +497,26 @@ Wybierz nazwy państw (kolumna: COUNTRY_NAME) z tabeli COUNTRIES, których nazwa
 Wybierz nazwy państw (kolumna: COUNTRY_NAME) z tabeli COUNTRIES, które mają w swojej nazwie jako drugą literę n a potem zawierają literę s.
 
 
+Istnieje możliwość, że wzór którego szukamy będzie zawierał jeden z wildcard'ów operatora LIKE. W takim przypadku możemy wykorzystać klauzulę ESCAPE, która pozwala na escape'owanie wildcard'ów.
+
+#### Przykład 2.19
+
+Wybierz identyfikator stanowiska (kolumna: JOB_ID), oraz nazwę stanowiska (kolumna: JOB_TITLE), których nazwa stanowiska zaczyna się od SA_.
+
+```
+select job_id, job_title
+from jobs
+where job_id like 'SA\_%' escape '\';
+```
+
+Rezultat:
+
+JOB_ID|JOB_TITLE
+--|--
+SA_MAN|Sales Manager
+SA_REP|Sales Representative
+
+
 Operator LIKE można wykorzystać również w pracy z datami.
 
 #### Przykład 2.20
