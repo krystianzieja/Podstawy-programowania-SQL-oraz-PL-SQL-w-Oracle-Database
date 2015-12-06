@@ -546,4 +546,20 @@ Operator IS NULL pozwala sprawdzić czy wartość jest równa NULL.
 
 #### Przykład 2.21
 
+Wybierz nazwiska pracowników, którzy nie mają prowizji, czyli wartość kolumny COMMISSION_PCT jest NULL. 
 
+```
+select last_name, commission_pct
+from employees
+where commission_pct is null;
+```
+
+#### Przykład 2.22
+
+Wykonaj zadanie z przykłądu 2.21 jednak tym razem wykorzystaj operator równościowy zamiast operatora IS NULL.
+
+```
+select last_name, commission_pct
+from employees
+where commission_pct is null;
+```
