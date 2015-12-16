@@ -16,3 +16,5 @@ Podstawowe funkcje agregujące
 Funkcja | Opis
 -- | --
 AVG( [DISTINCT lub ALL] n) | Średnia wartość n, ignorując wartości NULL
+COUNT({ [DISTINCT lub ALL] expr}) | Liczba wierszy, dla których wyrażenie expr zwraca wartość inną niż NULL. W celu policzenia wszystkich wierszy można wykorzystać znak *
+
