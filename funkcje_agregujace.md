@@ -114,6 +114,15 @@ Wyświetl liczbę działów, w kótych pracują pracownicy, korzystając z tabel
 
 Funkcje agregujące pomijają wartości NULL. Jeżeli chcemy, żeby funkcja agregująca brałą pod uwagę wartości NULL, muszą one zostać zamienione na wartości nie bedące NULL'ami np. poprzez wykorzystanie funkcji NVL.
 
+#### Przykład 5.8
+
+Wyświetl średnia prowizję (kolumna: COMMISSION_PCT) dla pracowników z pominięciem wartości NULL, oraz uwzględniając wartości NULL.
+
+```
+select avg(commission_pct), avg(nvl(commission_pct, 0))
+from employees;
+```
+
 Składnia dla zapytania z funkcją agregującą, które tworzy grupy
 
 ```
@@ -123,3 +132,4 @@ from tabela
 [ group by wyrazenie_group_by ]
 [ order by kolumna ]
 ```
+
