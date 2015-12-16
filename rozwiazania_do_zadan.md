@@ -725,3 +725,11 @@ from employees
 group by department_id
 order by department_id;
 ```
+
+#### Zadanie 5.5
+
+```
+select job_id, sum(salary)
+from employees
+group by job_id;
+```
