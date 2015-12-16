@@ -264,3 +264,5 @@ group by department_id
 having avg(salary) > 5000;
 ```
 
+#### Zadanie 5.7
+
