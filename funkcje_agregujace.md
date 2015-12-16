@@ -8,7 +8,6 @@ Podstawowa składnia zapytania z funkcją agregującą
 select funkcja_agregujące(kolumna)
 from tabela
 [ where warunek ]
-[ group by wyrazenie_group_by ]
 [ order by kolumna ]
 ```
 
@@ -110,3 +109,13 @@ Wyświetl liczbę pracwoników z działu (kolumna: DEPARTMENT_ID) 80 z tabeli EM
 
 Wyświetl liczbę działów, w kótych pracują pracownicy, korzystając z tabeli EMPLOYEES.
 
+
+Składnia dla zapytania z funkcją agregującą, które tworzy grupy
+
+```
+select funkcja_agregujące(kolumna)
+from tabela
+[ where warunek ]
+[ group by wyrazenie_group_by ]
+[ order by kolumna ]
+```
