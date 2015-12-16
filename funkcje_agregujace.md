@@ -210,7 +210,16 @@ W klauzuli GROUP BY możemy oczywiście wykorzystać więcej niż jedną kolumn�
 Wyświetl maksymalną pensję (kolumna: SALARY) dla każdego stanowiska (kolumna JOB_ID) w każdym z działów (kolumna DEPARTMENT_ID). Wynik posortuj po numerze działu malejąco oraz stanowisku rosnąco.
 
 ```
+select department_id, job_id, max(salary)
+from employees
+group by department_id, job_id
+order by department_id desc, job_id asc;
+```
+
+#### Zadanie 5.5
+
+Wyświetl ile firma przeznacza na wypłatę wynagrodzenia dla każdego stanowiska.
 
 ```
 
-
+```
