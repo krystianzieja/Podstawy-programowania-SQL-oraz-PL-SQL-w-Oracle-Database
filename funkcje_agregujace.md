@@ -11,3 +11,8 @@ from tabela
 [ order by kolumna ]
 ```
 
+Podstawowe funkcje agregujące
+
+Funkcja | Opis
+-- | --
+AVG( [DISTINCT lub ALL] n) | Średnia wartość n, ignorując wartości NULL
