@@ -113,7 +113,7 @@ Wyświetl liczbę działów, w kótych pracują pracownicy, korzystając z tabel
 Składnia dla zapytania z funkcją agregującą, które tworzy grupy
 
 ```
-select funkcja_agregujące(kolumna)
+select kolumna, funkcja_agregujące(kolumna)
 from tabela
 [ where warunek ]
 [ group by wyrazenie_group_by ]
