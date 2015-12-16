@@ -198,6 +198,9 @@ Należy pamiętać, że kolumna, którą wykorzystujemy w klazuli GROUP BY nie m
 Wyświetl data pierwszego zatrudnienia w każdym z działów, skorzystaj z tabeli EMPLOYEES. Nie umieszczaj kolumny DEPARTMENT_ID na liście SELECT.
 
 ```
-
+select min(hire_date)
+from employees
+group by department_id;
 ```
+
 
