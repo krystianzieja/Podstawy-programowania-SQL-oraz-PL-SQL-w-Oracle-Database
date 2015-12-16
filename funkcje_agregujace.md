@@ -135,3 +135,26 @@ from tabela
 
 Za zdefiniowanie grup rekordów, na których działać będzie funkcja agregująca, odpowiedzialna jest klauzula GROUP BY.
 
+**wyrazenie_group_by** definiuje kolumny, których wartości posłużą do zdefiniowania grup.
+
+Jeżeli użyliśmy funkcji agregującej na liście SELECT, nie możemy tam umieścić kolumn, które nie występują w klauzuli GROUP BY.
+
+#### Przykład 5.9
+
+Wybierz nazwisko pracownika, który zarabia najmniej (kolumna: SALARY).
+
+```
+select last_name, min(salary)
+from employees;
+```
+
+Rezultat:
+
+```
+ORA-00937: not a single-group group function
+00937. 00000 -  "not a single-group group function"
+*Cause:    
+*Action:
+Error at Line: 40 Column: 8
+```
+
