@@ -133,3 +133,5 @@ from tabela
 [ order by kolumna ]
 ```
 
+Za zdefiniowanie grup rekordów, na których działać będzie funkcja agregująca, odpowiedzialna jest klauzula GROUP BY.
+
