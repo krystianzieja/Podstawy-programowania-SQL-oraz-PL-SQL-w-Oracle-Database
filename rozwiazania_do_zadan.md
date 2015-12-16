@@ -750,3 +750,9 @@ from employees
 group by department_id
 having max(salary) > 10000;
 ````
+
+#### Zadanie 5.8
+
+```
+
+```
