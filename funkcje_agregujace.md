@@ -110,6 +110,10 @@ Wyświetl liczbę pracwoników z działu (kolumna: DEPARTMENT_ID) 80 z tabeli EM
 Wyświetl liczbę działów, w kótych pracują pracownicy, korzystając z tabeli EMPLOYEES.
 
 
+## Funkcje agregujące, a wartości NULL
+
+Funkcje agregujące pomijają wartości NULL. Jeżeli chcemy, żeby funkcja agregująca brałą pod uwagę wartości NULL, muszą one zostać zamienione na wartości nie bedące NULL'ami np. poprzez wykorzystanie funkcji NVL.
+
 Składnia dla zapytania z funkcją agregującą, które tworzy grupy
 
 ```
