@@ -225,3 +225,6 @@ Wyświetl ile firma przeznacza na wypłatę wynagrodzenia dla każdego stanowisk
 
 Wyświetl liczbę lokalizacji, znajdujących się w danych państwie (kolumna: COUNTRY_ID) oraz danym mieście (kolumna: CITY) z tabeli LOCATIONS.
 
+
+## Klauzula HAVING
+
