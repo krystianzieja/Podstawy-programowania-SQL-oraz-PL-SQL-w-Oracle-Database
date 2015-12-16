@@ -168,3 +168,19 @@ where salary = (
   from employees);
 ```
 
+Korzystając z klauzuli where możemy wyeliminować rekordy, zanim zostaną utworzone grupy poprzez klauzulę GROUP BY.
+
+Nie można wykorzystać aliasów kolumn, w klauzuli GROUP BY.
+
+#### Przykład 5.10
+
+Wyświetl maksymalną oraz minimalną pensję (kolumna: SALARY), w każdym dziale za wyjątkiem działu numer 80 (kolumna: DEPARTMENT_ID). Posortuj rezultat po numerze działu.
+
+```
+select department_id, min(salary), max(salary)
+from employees
+where department_id <> 80
+group by department_id
+order by department_id;
+```
+
