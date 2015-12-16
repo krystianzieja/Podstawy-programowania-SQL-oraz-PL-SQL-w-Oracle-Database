@@ -24,6 +24,8 @@ STDEV( [DISTINCT lub ALL] expr) | Standardowe odchylenie dla expr, ignorując wa
 SUM( [DISTINCT lub ALL] expr) | Suma wartości expr, ignorując wartości NULL
 VARIANCE( [DISTINCT lub ALL] expr) | Wariancja expr, ignorując wartości NULL
 
+Słowo kluczowe DISTINCT powoduje, że funkcja agregująca pomija duplikaty. 
+Słowo kluczowe ALL powoduje, że funkcja agregująca bierze pod uwagę wszystkie wartości. Słowo kluczowe ALL jest domyślne dla każdej funkcji agregującej, dlatego zwyczajowo się go nie pisze w kwerendach.
 
 #### Przykład 5.1
 
@@ -44,3 +46,13 @@ select min(salary), max(salary)
 from employees
 where job_id like '%REP%';
 ```
+
+#### Przykład 5.3
+
+Wyświetl sumę pensji z tabeli EMPLOYEES. Porównaj działanie słów kluczowych DISTINCT oraz ALL.
+
+```
+select sum(salary), sum(all salary), sum(distinct salary)
+from employees
+```
+
