@@ -190,3 +190,14 @@ Wyświetl średnia płacę w każdym z działów, wynik posortuj po numerze dzia
 
 **UWAGA:** Należy zwrócić uwagę, że rezultat zawiera grupę utworzoną dla pracowników, którzy nie są przypisani do żadnego działu.
 
+
+Należy pamiętać, że kolumna, którą wykorzystujemy w klazuli GROUP BY nie musi występować na liście SELECT.
+
+#### Przykład 5.11
+
+Wyświetl data pierwszego zatrudnienia w każdym z działów, skorzystaj z tabeli EMPLOYEES. Nie umieszczaj kolumny DEPARTMENT_ID na liście SELECT.
+
+```
+
+```
+
