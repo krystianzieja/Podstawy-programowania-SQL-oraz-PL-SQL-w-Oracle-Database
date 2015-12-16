@@ -184,7 +184,9 @@ group by department_id
 order by department_id;
 ```
 
-#### Zadanie 5.11
+#### Zadanie 5.4
 
-Wyświetl średnia płacę w każdym z działów.
+Wyświetl średnia płacę w każdym z działów, wynik posortuj po numerze działu.
+
+
 
