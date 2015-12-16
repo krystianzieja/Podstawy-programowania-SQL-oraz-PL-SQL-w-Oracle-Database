@@ -741,3 +741,12 @@ select country_id, city, count(*)
 from locations
 group by country_id, city;
 ```
+
+#### Zadanie 5.7
+
+````
+select department_id, max(salary)
+from employees
+group by department_id
+having max(salary) > 10000;
+````
