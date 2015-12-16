@@ -737,5 +737,7 @@ group by job_id;
 #### Zadanie 5.6
 
 ```
-
+select country_id, city, count(*)
+from locations
+group by country_id, city;
 ```
