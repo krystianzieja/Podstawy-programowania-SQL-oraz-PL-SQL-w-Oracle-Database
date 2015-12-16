@@ -258,5 +258,9 @@ Wykonaj Przykład 5.13 poprawnie, czyli z wykorzystaniem klauzuli HAVING.
 
 
 ```
-
+select department_id, avg(salary)
+from employees
+group by department_id
+having avg(salary) > 5000;
 ```
+
