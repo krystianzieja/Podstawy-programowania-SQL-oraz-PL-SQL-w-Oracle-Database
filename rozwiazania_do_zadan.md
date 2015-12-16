@@ -716,3 +716,12 @@ where department_id = 80;
 select count(distinct department_id)
 from employees;
 ```
+
+#### Zadanie 5.4
+
+```
+select department_id, avg(salary)
+from employees
+group by department_id
+order by department_id;
+```
