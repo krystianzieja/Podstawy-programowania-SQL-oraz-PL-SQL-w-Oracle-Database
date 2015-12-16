@@ -25,3 +25,22 @@ SUM( [DISTINCT lub ALL] expr) | Suma wartości expr, ignorując wartości NULL
 VARIANCE( [DISTINCT lub ALL] expr) | Wariancja expr, ignorując wartości NULL
 
 
+#### Przykład 5.1
+
+Oblicz średnią płacę w firmie.
+
+```
+select avg(salary)
+from employees;
+
+```
+
+#### Przykład 5.2
+
+Wyświetl najmniejszą oraz największą pensję dla pracowników, których nazwa stanowska zawiera REP.
+
+```
+select min(salary), max(salary)
+from employees
+where job_id like '%REP%';
+```
