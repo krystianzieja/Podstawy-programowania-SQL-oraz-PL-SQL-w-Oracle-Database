@@ -80,3 +80,6 @@ select min(last_name), max(last_name)
 from employees;
 ```
 
+#### Zadanie 5.1
+
+Wyświetl największą oraz najmniejszą prowizję (kolumna: COMMISSION_PCT) z tabeli EMPLOYEES.
