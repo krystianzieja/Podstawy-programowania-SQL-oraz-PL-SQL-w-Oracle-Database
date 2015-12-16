@@ -733,3 +733,9 @@ select job_id, sum(salary)
 from employees
 group by job_id;
 ```
+
+#### Zadanie 5.6
+
+```
+
+```
