@@ -203,4 +203,14 @@ from employees
 group by department_id;
 ```
 
+W klauzuli GROUP BY możemy oczywiście wykorzystać więcej niż jedną kolumnę.
+
+#### Przykład 5.12
+
+Wyświetl maksymalną pensję (kolumna: SALARY) dla każdego stanowiska (kolumna JOB_ID) w każdym z działów (kolumna DEPARTMENT_ID). Wynik posortuj po numerze działu malejąco oraz stanowisku rosnąco.
+
+```
+
+```
+
 
