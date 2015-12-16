@@ -1,0 +1,2 @@
+# Funkcje Agregujące
+
