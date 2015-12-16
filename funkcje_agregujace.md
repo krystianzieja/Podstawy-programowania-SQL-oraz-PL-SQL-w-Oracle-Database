@@ -104,5 +104,9 @@ from employees;
 
 #### Zadanie 5.2
 
-Wyświtl liczbę pracwoników z działu (kolumna: DEPARTMENT_ID) 80 z tabeli EMPLOYEES.
+Wyświetl liczbę pracwoników z działu (kolumna: DEPARTMENT_ID) 80 z tabeli EMPLOYEES.
+
+#### Zadanie 5.3
+
+Wyświetl liczbę działów, w kótych pracują pracownicy, korzystając z tabeli EMPLOYEES.
 
