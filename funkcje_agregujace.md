@@ -69,10 +69,13 @@ from employees;
 
 **UWAGA: Funkcje AVG, SUM, VARIANCE oraz STDDEV mogą być wykorzystane tylko z typami danych numerycznymi.**
 
+Funkcje MIN oraz MAX można wykorzystać również z danymi znakowymi.
 #### Przykład 5.5
 
+Wybierz "najmniejsze" oraz "największe" nazwisko z tabeli EMPLOYEES.
 
 ```
 select min(last_name), max(last_name)
 from employees;
 ```
+
