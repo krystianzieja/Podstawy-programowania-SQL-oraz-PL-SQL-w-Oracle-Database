@@ -69,3 +69,10 @@ from employees;
 
 **UWAGA: Funkcje AVG, SUM, VARIANCE oraz STDDEV mogą być wykorzystane tylko z typami danych numerycznymi.**
 
+#### Przykład 5.5
+
+
+```
+select min(last_name), max(last_name)
+from employees;
+```
