@@ -83,3 +83,26 @@ from employees;
 #### Zadanie 5.1
 
 Wyświetl największą oraz najmniejszą prowizję (kolumna: COMMISSION_PCT) z tabeli EMPLOYEES.
+
+#### Przykład 5.6
+
+Wyświetl liczbę pracowników z tabeli EMPLOYEES.
+
+```
+select count(*)
+from employees;
+```
+
+#### Przykład 5.7
+
+Wyświetl liczbę pracowników z tabeli EMPLOYEES, którzy mają zdefiniowaną prowizję. 
+
+```
+select count(commission_pct)
+from employees;
+```
+
+#### Zadanie 5.2
+
+Wyświtl liczbę pracwoników z działu (kolumna: DEPARTMENT_ID) 80 z tabeli EMPLOYEES.
+
