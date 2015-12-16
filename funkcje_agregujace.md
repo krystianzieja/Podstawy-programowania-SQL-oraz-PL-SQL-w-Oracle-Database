@@ -20,3 +20,7 @@ COUNT({ [DISTINCT lub ALL] expr}) | Liczba wierszy, dla których wyrażenie expr
 MAX( [DISTINCT lub ALL] expr) | Maksymalna  wartość expr, ignorując wartości NULL
 MIN( [DISTINCT lub ALL] expr) | Minimalna  wartość expr, ignorując wartości NULL
 STDEV( [DISTINCT lub ALL] expr) | Standardowe odchylenie dla expr, ignorując wartości NULL
+SUM( [DISTINCT lub ALL] expr) | Suma wartości expr, ignorując wartości NULL
+VARIANCE( [DISTINCT lub ALL] expr) | Wariancja expr, ignorując wartości NULL
+
+
