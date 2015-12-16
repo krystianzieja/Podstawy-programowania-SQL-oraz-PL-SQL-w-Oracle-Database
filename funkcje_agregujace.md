@@ -228,3 +228,35 @@ Wyświetl liczbę lokalizacji, znajdujących się w danych państwie (kolumna: C
 
 ## Klauzula HAVING
 
+W celu ograniczenia zwracanych grup ze względu na wynik funkcji agregującej nie możemy wykorzystać klauzuli WHERE. 
+
+#### Przykład 5.13
+
+Wyświetl średnią płacę w poszczególnych działach firmy. W raporcie powinny się pojawić tylko działy, w których średnia pensja przekracza 5000.
+
+
+```
+select department_id, avg(salary)
+from employees
+where avg(salary) > 5000
+group by department_id;
+```
+
+Rezultat:
+
+```
+ORA-00934: group function is not allowed here
+00934. 00000 -  "group function is not allowed here"
+*Cause:    
+*Action:
+Error at Line: 82 Column: 7
+```
+
+#### Przykład 5.14
+
+Wykonaj Przykład 5.13 poprawnie, czyli z wykorzystaniem klauzuli HAVING.
+
+
+```
+
+```
