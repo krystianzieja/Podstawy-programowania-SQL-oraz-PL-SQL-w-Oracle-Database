@@ -702,3 +702,10 @@ from employees;
 ```
 
 
+#### Zdanie 5.2
+
+```
+select count(*)
+from employees
+where department_id = 80;
+```
