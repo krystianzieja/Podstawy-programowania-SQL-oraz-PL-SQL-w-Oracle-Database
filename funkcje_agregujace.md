@@ -8,6 +8,7 @@ Podstawowa składnia zapytania z funkcją agregującą
 select funkcja_agregujące(kolumna)
 from tabela
 [ where warunek ]
+[ group by wyrazenie_group_by ]
 [ order by kolumna ]
 ```
 
