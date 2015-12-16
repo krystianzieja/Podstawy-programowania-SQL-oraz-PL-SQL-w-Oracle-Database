@@ -141,7 +141,7 @@ Jeżeli użyliśmy funkcji agregującej na liście SELECT, nie możemy tam umie�
 
 #### Przykład 5.9
 
-Wybierz nazwisko pracownika, który zarabia najmniej (kolumna: SALARY).
+Wybierz nazwisko/a pracownika/ów, który/zy zarabia najmniej (kolumna: SALARY).
 
 ```
 select last_name, min(salary)
@@ -156,5 +156,15 @@ ORA-00937: not a single-group group function
 *Cause:    
 *Action:
 Error at Line: 40 Column: 8
+```
+
+Prawidłowe rozwiązaniej to posłużenie się podzapytaniem.
+
+```
+select last_name, salary
+from employees 
+where salary = (
+  select min(salary)
+  from employees);
 ```
 
