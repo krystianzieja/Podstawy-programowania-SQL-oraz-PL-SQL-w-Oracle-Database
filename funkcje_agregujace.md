@@ -266,3 +266,5 @@ having avg(salary) > 5000;
 
 #### Zadanie 5.7
 
+Wybierz numery działów, w których największa pensja przekracza 10000.
+
