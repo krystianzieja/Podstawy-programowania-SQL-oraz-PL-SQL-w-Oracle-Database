@@ -67,4 +67,5 @@ select min(hire_date), max(hire_date)
 from employees;
 ```
 
-**UWAGA: Funkcje AVG, SUM, VARIANCE oraz STDDEV
+**UWAGA: Funkcje AVG, SUM, VARIANCE oraz STDDEV mogą być wykorzystane tylko z typami danych numerycznymi.**
+
