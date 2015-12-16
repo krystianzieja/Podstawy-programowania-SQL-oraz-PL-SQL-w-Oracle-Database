@@ -268,3 +268,7 @@ having avg(salary) > 5000;
 
 Wybierz numery działów oraz największą pensję w danym dziale, dla działów w których największa pensja przekracza 10000.
 
+#### Zadanie 5.8
+
+Wyświetl, minimalną, maksymalną, oraz średnią pensję dla każdego stanowiska w firmie.
+
