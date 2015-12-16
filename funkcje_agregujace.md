@@ -188,5 +188,5 @@ order by department_id;
 
 Wyświetl średnia płacę w każdym z działów, wynik posortuj po numerze działu.
 
-
+**UWAGA:** Należy zwrócić uwagę, że rezultat zawiera grupę utworzoną dla pracowników, którzy nie są przypisani do żadnego działu.
 
