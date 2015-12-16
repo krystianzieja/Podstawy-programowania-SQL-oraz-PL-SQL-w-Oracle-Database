@@ -53,6 +53,17 @@ Wyświetl sumę pensji z tabeli EMPLOYEES. Porównaj działanie słów kluczowyc
 
 ```
 select sum(salary), sum(all salary), sum(distinct salary)
-from employees
+from employees;
+```
+
+Funkcję agregujące można również wykorzystać do pracy z typami danych typu DATE.
+
+#### Przykład 5.4 
+
+Wyświetl datę pierwszego zatrudnienia i ostatniego zatrudnienia.
+
+```
+select min(hire_date), max(hire_date)
+from employees;
 ```
 
