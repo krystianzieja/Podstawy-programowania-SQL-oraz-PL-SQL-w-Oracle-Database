@@ -693,3 +693,12 @@ Rezultat:
 | -- |
 | United States of America |
 
+
+#### Zadanie 5.1
+
+```
+select min(commission_pct), max(commission_pct)
+from employees;
+```
+
+
