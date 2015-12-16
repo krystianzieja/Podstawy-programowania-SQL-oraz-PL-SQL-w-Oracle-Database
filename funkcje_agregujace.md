@@ -220,6 +220,4 @@ order by department_id desc, job_id asc;
 
 Wyświetl ile firma przeznacza na wypłatę wynagrodzenia dla każdego stanowiska.
 
-```
 
-```
