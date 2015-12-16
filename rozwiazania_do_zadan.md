@@ -754,5 +754,7 @@ having max(salary) > 10000;
 #### Zadanie 5.8
 
 ```
-
+select job_id, min(salary), max(salary), avg(salary)
+from employees
+group by job_id;
 ```
