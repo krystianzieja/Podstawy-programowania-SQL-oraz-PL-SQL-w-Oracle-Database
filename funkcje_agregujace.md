@@ -221,3 +221,7 @@ order by department_id desc, job_id asc;
 Wyświetl ile firma przeznacza na wypłatę wynagrodzenia dla każdego stanowiska.
 
 
+#### Zadanie 5.6
+
+Wyświetl liczbę lokalizacji, znajdujących się w danych państwie (kolumna: COUNTRY_ID) oraz danym mieście (kolumna: CITY) z tabeli LOCATIONS.
+
