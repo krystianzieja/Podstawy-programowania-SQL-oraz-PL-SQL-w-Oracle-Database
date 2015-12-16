@@ -710,4 +710,9 @@ from employees
 where department_id = 80;
 ```
 
-#### Z
+#### Zadanie 5.3
+
+```
+select count(distinct department_id)
+from employees;
+```
