@@ -8,4 +8,5 @@
 * [Klauzula WHERE instrukcji SELECT](klauzula_where_instrukcji_select.md)
 * [Funkcje Agregujące](funkcje_agregujace.md)
 * [Operatory zbiorowe](operatory_zbiorowe.md)
+* Podstawy PL/SQL
 
