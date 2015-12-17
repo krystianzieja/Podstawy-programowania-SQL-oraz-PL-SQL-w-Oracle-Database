@@ -64,7 +64,7 @@ Jak można łatwo zauważyć Oracle automatycznie wykonał sortowanie po pierwsz
 
 #### Przykład 6.4
 
-Wyświetl pracowników, którzy mają teraz takie same stanowisko (kolumna: JOB_ID z tabeli EMPLOYEES), jak mieli w przeszłości (kolumna: JOB_ID z tabeli JOB_HISTORY).
+Wyświetl pracowników, którzy mają teraz takie same stanowisko (kolumna: JOB_ID z tabeli EMPLOYEES), jakie mieli w przeszłości (kolumna: JOB_ID z tabeli JOB_HISTORY).
 
 ```
 select employee_id, job_id
@@ -73,4 +73,9 @@ intersect
 select employee_id, job_id
 from job_history;
 ```
+
+#### Zadanie 6.1
+
+Wyświetl pracowników, którzy mają teraz takie same stanowisko (kolumna: JOB_ID z tabeli EMPLOYEES), jakie mieli w przeszłości (kolumna: JOB_ID z tabeli JOB_HISTORY). Dodatkowym wymaganiem jest, żeby pracownik pracował cały czas w tym samym dziale.
+
 
