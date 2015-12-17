@@ -758,3 +758,9 @@ select job_id, min(salary), max(salary), avg(salary)
 from employees
 group by job_id;
 ```
+
+#### Zadanie 6.1
+
+```
+
+```
