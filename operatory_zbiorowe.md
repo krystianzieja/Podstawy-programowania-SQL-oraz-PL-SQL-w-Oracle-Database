@@ -67,5 +67,10 @@ Jak można łatwo zauważyć Oracle automatycznie wykonał sortowanie po pierwsz
 Wyświetl pracowników, którzy mają teraz takie same stanowisko (kolumna: JOB_ID z tabeli EMPLOYEES), jak mieli w przeszłości (kolumna: JOB_ID z tabeli JOB_HISTORY).
 
 ```
-
+select employee_id, job_id
+from employees
+intersect
+select employee_id, job_id
+from job_history;
 ```
+
