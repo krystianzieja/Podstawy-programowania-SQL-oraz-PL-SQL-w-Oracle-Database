@@ -1,0 +1,2 @@
+# Operatory zbiorowe
+
