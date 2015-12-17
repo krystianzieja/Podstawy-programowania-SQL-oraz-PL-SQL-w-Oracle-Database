@@ -34,3 +34,4 @@ order by employee_id;
 
 Zwróc uwagę na pracowników z identyfikatorami: 101 oraz 200.
 
+#### Przykład 6.2
