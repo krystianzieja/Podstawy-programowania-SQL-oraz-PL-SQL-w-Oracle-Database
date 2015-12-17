@@ -47,3 +47,6 @@ from job_history
 order by employee_id;
 ```
 
+#### Przykład 6.3 
+
+Wykonaj kwerendę z przykładu 6.1 usuwając klauzulę 
