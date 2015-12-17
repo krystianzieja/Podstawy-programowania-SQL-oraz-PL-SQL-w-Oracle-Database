@@ -19,5 +19,16 @@ Możmy wykorzystać nawiasy, aby zmienić koleność wykonania kwerend.
 
 Klauzula ORDER BY może być użyta tylko na samym końcu całej instrukcji.
 
+#### Przykład 6.1
 
+Wyświetl wszystkie stanowiska (kolumna: JOB_ID), na których pracował dany pracownik (kolumna: EMPLOYEE_ID) oraz działy, w których pracował pracownik (kolumna: DEPARTMENT_ID). Skorzystaj z tabel: EMPLOYEES oraz JOB_HISTORY. Posortuj rezultat po kolumnie EMPLOYEE_ID.
+
+```
+select employee_id, job_id
+from employees
+union
+select employee_id, job_id
+from job_history
+order by employee_id;
+```
 
