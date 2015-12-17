@@ -98,5 +98,9 @@ Należy pamiętać, że listy SELECT w kwerendzie złożonej muszą zawierać ta
 Wyświetl wszystkie pensję (kolumna: SALARY) dla pracowników (kolumna: EMPLOYEE_ID) i danego stanowiska (kolumna: JOB_ID), które są wypłacane teraz tabela EMPLOYEES lub były wypłacane w przeszłości (tej informacji nie ma więc posłuż się wartością 0).
 
 ```
-
+select employee_id, job_id, salary
+from employees
+union all
+select employee_id, job_id, 0
+from job_history;
 ```
