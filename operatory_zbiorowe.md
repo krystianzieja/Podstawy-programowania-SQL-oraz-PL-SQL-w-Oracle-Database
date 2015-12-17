@@ -49,4 +49,15 @@ order by employee_id;
 
 #### Przykład 6.3 
 
-Wykonaj kwerendę z przykładu 6.1 usuwając klauzulę 
+Wykonaj kwerendę z przykładu 6.1 usuwając klauzulę ORDER BY.
+
+```
+select employee_id, job_id, department_id
+from employees
+union
+select employee_id, job_id, department_id
+from job_history;
+```
+
+Jak można łatwo zauważyć Oracle automatycznie wykonał sortowanie po pierwszej kolumnie na liście SELECT.
+
