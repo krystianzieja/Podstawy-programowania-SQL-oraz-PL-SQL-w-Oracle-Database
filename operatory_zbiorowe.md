@@ -35,3 +35,15 @@ order by employee_id;
 Zwróc uwagę na pracowników z identyfikatorami: 101 oraz 200.
 
 #### Przykład 6.2
+
+Wykonaj Przykład 6.1 korzystając z operatora UNION ALL. Porównaj rezultat z Przykładów 6.1 oraz 6.2 dla pracownika o EMPLOYEE_ID = 176.
+
+```
+select employee_id, job_id, department_id
+from employees
+union all
+select employee_id, job_id, department_id
+from job_history
+order by employee_id;
+```
+
