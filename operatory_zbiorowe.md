@@ -61,3 +61,11 @@ from job_history;
 
 Jak można łatwo zauważyć Oracle automatycznie wykonał sortowanie po pierwszej kolumnie na liście SELECT.
 
+
+#### Przykład 6.4
+
+Wyświetl pracowników, którzy mają teraz takie same stanowisko (kolumna: JOB_ID z tabeli EMPLOYEES), jak mieli w przeszłości (kolumna: JOB_ID z tabeli JOB_HISTORY).
+
+```
+
+```
