@@ -79,3 +79,20 @@ from job_history;
 Wyświetl pracowników, którzy mają teraz takie same stanowisko (kolumna: JOB_ID z tabeli EMPLOYEES), jakie mieli w przeszłości (kolumna: JOB_ID z tabeli JOB_HISTORY). Dodatkowym wymaganiem jest, żeby pracownik pracował cały czas w tym samym dziale.
 
 
+#### Przykład 6.5
+
+Wyświetl pracowników z tabeli EMPLOYEES, którzy nigdy nie zajmowali innego stanowisko(czyli takich, którzy nie mają żadnego rekordu w tabeli JOB_HISTORY).
+
+```
+select employee_id
+from employees
+minus
+select employee_id
+from job_history;
+```
+
+Należy pamiętać, że listy SELECT w kwerendzie złożonej muszą zawierać taką samą liczbę wyrażeń oraz, że te wyrażenia muszą posiadać ten sam typ danych. Jeżeli nie jest to możliwe jedną z list SELECT, musimy doopełnić wyrażeniem zakodowanym na sztywno.
+
+#### Przykład 6.6
+
+Wyświetl wszystkie pensję (kolumna: SALARY) dla pracowników (kolumna: EMPLOYEE_ID) i danego stanowiska (kolumna: JOB_ID), które są wypłacane teraz tabela EMPLOYEES lub były wypłacane w przeszłości (tej
