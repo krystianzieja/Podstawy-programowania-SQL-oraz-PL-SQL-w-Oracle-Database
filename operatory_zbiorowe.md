@@ -32,3 +32,5 @@ from job_history
 order by employee_id;
 ```
 
+Zwróc uwagę na pracowników z identyfikatorami: 101 oraz 200.
+
