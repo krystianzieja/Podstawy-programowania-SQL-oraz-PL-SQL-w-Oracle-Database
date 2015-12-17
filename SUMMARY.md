@@ -7,4 +7,5 @@
 * [Rozwiazania do zadań](rozwiazania_do_zadan.md)
 * [Klauzula WHERE instrukcji SELECT](klauzula_where_instrukcji_select.md)
 * [Funkcje Agregujące](funkcje_agregujace.md)
+* Operatory zbiorowe
 
