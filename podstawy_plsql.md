@@ -6,3 +6,9 @@
 
 Napisz program (blok anonimowy) w PL/SQL, który wypisze na ekran "Hello World!".
 
+```
+begin
+  dbms_output.put_line('Hello World!');
+end;
+```
+
