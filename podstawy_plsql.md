@@ -107,3 +107,21 @@ end;
 
 W celu pobrania pojedyńczej wartości z bazy danych i przypisanie jej do zmiennej możemy posłużyć się instrukcją SELECT INTO.
 
+#### Przykład 8.8
+
+```
+declare 
+  l_emp_id number(6) not null := 170;
+  l_salary number(6);
+begin
+  select salary
+    into l_salary
+    from employees
+    where employee_id = l_emp_id;
+    
+  dbms_output.put_line('Pracownik ' || l_emp_id || ' zarabia ' || l_salary || ' PLN');
+end;
+```
+
+#### Przykład 8.9
+
