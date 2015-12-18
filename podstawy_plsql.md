@@ -141,5 +141,21 @@ begin
 end;
 ```
 
+Korzystając z konstrukcji SELECT INTO  można pobrać w tym samym czasie więcej niż jedną wartość z tabeli.
+
 #### Przykład 8.10
 
+```
+declare 
+  l_last_name varchar2(30) not null := 'Gietz';
+  l_employee_id number(6);
+  l_salary number(6);
+begin
+  select employee_id, salary
+    into l_employee_id, l_salary
+    from employees
+    where last_name = l_last_name;
+    
+  dbms_output.put_line(l_last_name || ' ma numer ' || l_employee_id || ' oraz zarabia ' || l_salary);
+end;
+```
