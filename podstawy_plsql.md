@@ -91,3 +91,7 @@ PLS-00218: a variable declared NOT NULL must have an initialization assignment
 *Cause:    Usually a PL/SQL compilation error.
 *Action:
 ```
+
+#### Przykład 8.7
+
+Popraw przykład 8.6 korzystajać ze słowa kluczowego DEFAULT 
