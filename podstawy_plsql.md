@@ -32,5 +32,6 @@ Oracle pozwala na skorzystanie z komendy EXECUTE (w skrócie EXEC) w celu wykona
 Wypisz na ekran Hello World! korzystając z komendy EXECUTE.
 
 ```
-
+exec dbms_output.put_line('Hello World!');
 ```
+
