@@ -253,5 +253,31 @@ end;
 
 Należy pamiętać, że typ rekordowy nie musi odpowiadać liczbie kolumn w tabeli, a nawet może być całkowicie niezwiązany z żadną tabelą.
 
+
 #### Przykład 8.15
+
+```
+declare
+  type emp is record
+  (
+    first_name varchar2(30),       
+    last_name varchar2(30),
+    salary number,
+    info varchar2(100)
+  );
+  
+  l_emp emp;
+  l_employee_id number not null := 100;
+begin
+  select first_name, last_name, salary
+    into l_emp.first_name, l_emp.last_name, l_emp.salary
+  from employees
+  where employee_id = l_employee_id;
+  
+  l_emp.info := 'Zostanie zwolniony';
+  dbms_output.put_line('Pracownik: ' || l_emp.first_name || ' ' 
+    || l_emp.last_name || ' z pensja ' || l_emp.salary);
+  dbms_output.put_line(l_emp.info);
+end;
+```
 
