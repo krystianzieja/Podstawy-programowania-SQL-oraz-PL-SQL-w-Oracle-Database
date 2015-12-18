@@ -300,3 +300,13 @@ begin
   
 end;
 ```
+
+## Wyrażenia warunkowe w PL/SQL
+
+PL/SQL wspiera jak większość języków programowania intrukcje warunkową IF ELSEIF ELSE (UWAGA: w kodzie źródłowym ELSEIF zapisujemy jako ELSIF).
+
+#### Przykład 8.17
+
+```
+
+```
