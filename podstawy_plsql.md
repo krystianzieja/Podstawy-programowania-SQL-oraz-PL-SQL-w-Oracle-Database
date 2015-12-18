@@ -281,3 +281,22 @@ begin
 end;
 ```
 
+Jeżeli chcemy wykorzystać typ rekordowy do pobrania danych z tabeli, nie musimy definiować wszystkich kolumn możemy w definicji posłużyć się %ROWTYPE.
+
+#### Przykład 8.16
+
+```
+declare
+  l_region regions%rowtype;
+  l_region_id number not null := 2;
+begin
+  select *
+    into l_region
+  from regions
+  where region_id = l_region_id;
+  
+  dbms_output.put_line('Region Id: ' || l_region.region_id || ' ' 
+    ||  ' Region Name: ' || l_region.region_name);
+  
+end;
+```
