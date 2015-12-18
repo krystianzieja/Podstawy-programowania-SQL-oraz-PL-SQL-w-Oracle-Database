@@ -125,6 +125,21 @@ end;
 
 #### Przykład 8.9
 
-```
+Znajdź oraz wyświetl numer działu o nazwie IT.
 
 ```
+declare 
+  l_department_name varchar2(30) not null := 'IT';
+  l_department_id number(6);
+begin
+  select department_id
+    into l_department_id
+    from departments
+    where department_name = l_department_name;
+    
+  dbms_output.put_line('Numer dzialu ' || l_department_name || ' to ' || l_department_id);
+end;
+```
+
+#### Przykład 8.10
+
