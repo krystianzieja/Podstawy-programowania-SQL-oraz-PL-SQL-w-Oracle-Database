@@ -308,5 +308,19 @@ PL/SQL wspiera jak większość języków programowania intrukcje warunkową IF 
 #### Przykład 8.17
 
 ```
-
+declare
+  l_salary number;
+  l_employee_id number := 100;
+begin
+  select salary
+    into l_salary
+  from employees
+  where employee_id = l_employee_id;
+  
+  if l_salary > 5000
+  then
+    dbms_output.put_line('Powyzej sredniej krajowej: ' || l_salary);
+  end if;
+end;
 ```
+
