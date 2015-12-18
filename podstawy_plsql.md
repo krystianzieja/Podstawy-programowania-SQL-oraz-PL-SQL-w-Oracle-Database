@@ -105,3 +105,5 @@ begin
 end;
 ```
 
+W celu pobrania pojedyńczej wartości z bazy danych i przypisanie jej do zmiennej możemy posłużyć się instrukcją SELECT INTO.
+
