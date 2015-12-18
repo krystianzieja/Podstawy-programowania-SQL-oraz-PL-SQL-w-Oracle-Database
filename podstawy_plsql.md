@@ -177,3 +177,40 @@ begin
 end;
 ```
 
+#### Przykład 8.12
+
+```
+declare
+  c_constant constant number(3,2);
+begin
+  dbms_output.put_line(c_constant);
+end;
+```
+
+Rezultat:
+
+```
+ORA-06550: line 2, column 3:
+PLS-00322: declaration of a constant 'C_CONSTANT' must contain an initialization assignment
+ORA-06550: line 2, column 14:
+```
+
+#### Przykład 8.13
+
+```
+declare
+  c_constant constant number(3,2) := 100;
+begin
+  c_constant := 200;
+  dbms_output.put_line(c_constant);
+end;
+```
+
+Rezultat:
+
+```
+ORA-06550: line 4, column 3:
+PLS-00363: expression 'C_CONSTANT' cannot be used as an assignment target
+ORA-06550: line 4, column 3:
+```
+
