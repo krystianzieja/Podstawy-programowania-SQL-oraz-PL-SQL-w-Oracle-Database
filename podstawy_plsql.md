@@ -159,3 +159,12 @@ begin
   dbms_output.put_line(l_last_name || ' ma numer ' || l_employee_id || ' oraz zarabia ' || l_salary);
 end;
 ```
+
+## Stałe w PL/SQL
+
+PL/SQL pozwala również na deklaracje stałych. Stała jest to zmienna, która nie może zmieniać wartości.
+
+#### Przykład 8.11
+
+Zadeklaruj stałą liczba pi o wartości 3.14 i oblicz pole koła o promieniu 5.
+
