@@ -35,3 +35,35 @@ Wypisz na ekran Hello World! korzystając z komendy EXECUTE.
 exec dbms_output.put_line('Hello World!');
 ```
 
+## Deklarowanie zmiennych
+
+Zmienne w programach PL/SQL deklarujemy w bloku DECLARE dla bloków anonimowych lub bezpośrednio za sekcją nagłówkową w przypadku procedur oraz funkcji. (UWAGA: Są wyjątki od tej zasady).
+
+Składnia do zadeklarowania zmiennej:
+
+```
+variable_name datatype [NOT NULL := value ]; 
+```
+
+#### Przykład 8.4
+
+```
+declare 
+  l_name varchar2(20);
+begin
+  l_name := 'Krystian';
+  dbms_output.put_line(l_name);
+end;
+```
+
+
+#### Przykład 8.5
+
+```
+declare 
+  l_emp_id number(6) := 1194;
+  l_salary number(6) := 4500;
+begin
+  dbms_output.put_line('Pracownik ' || l_emp_id || ' zarabia ' || l_salary || ' PLN');
+end;
+```
