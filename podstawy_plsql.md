@@ -168,3 +168,12 @@ PL/SQL pozwala również na deklaracje stałych. Stała jest to zmienna, która 
 
 Zadeklaruj stałą liczba pi o wartości 3.14 i oblicz pole koła o promieniu 5.
 
+```
+declare
+  c_pi constant number(3,2) := 3.14;
+  l_radius number(1) := 5;
+begin
+  dbms_output.put_line('Pole kola o promieniu ' || l_radius || ' wynosi ' || c_pi * l_radius * l_radius);
+end;
+```
+
