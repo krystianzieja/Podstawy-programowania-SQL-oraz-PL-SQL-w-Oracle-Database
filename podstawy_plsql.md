@@ -214,3 +214,9 @@ PLS-00363: expression 'C_CONSTANT' cannot be used as an assignment target
 ORA-06550: line 4, column 3:
 ```
 
+## Typ rekordowy w Oracle
+
+Typ rekordowy w Oracle przypomina obiekt lub wiersz z tabeli. Rekord 
+
+#### Przykład 8.14
+
