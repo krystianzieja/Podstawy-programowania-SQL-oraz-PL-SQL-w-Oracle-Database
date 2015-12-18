@@ -231,3 +231,27 @@ TYPE record_type_name IS RECORD
 
 #### Przykład 8.14
 
+```
+declare
+  type region is record
+  (
+    region_id number,       
+    region_name varchar2(25)
+  );
+  
+  l_region region;
+  l_region_id number not null := 1;
+begin
+  select region_id, region_name
+    into l_region
+  from regions
+  where region_id = l_region_id;
+  dbms_output.put_line('Region Id: ' || l_region.region_id);
+  dbms_output.put_line('Region Name: ' || l_region.region_name);
+end;
+```
+
+Należy pamiętać, że typ rekordowy nie musi odpowiadać liczbie kolumn w tabeli, a nawet może być całkowicie niezwiązany z żadną tabelą.
+
+#### Przykład 8.15
+
