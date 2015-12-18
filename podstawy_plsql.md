@@ -94,4 +94,14 @@ PLS-00218: a variable declared NOT NULL must have an initialization assignment
 
 #### Przykład 8.7
 
-Popraw przykład 8.6 korzystajać ze słowa kluczowego DEFAULT 
+Popraw przykład 8.6 korzystajać ze słowa kluczowego DEFAULT.
+
+```
+declare 
+  l_emp_id number(6) not null default 2244;
+  l_salary number(6) := 4500;
+begin
+  dbms_output.put_line('Pracownik ' || l_emp_id || ' zarabia ' || l_salary || ' PLN');
+end;
+```
+
