@@ -67,3 +67,27 @@ begin
   dbms_output.put_line('Pracownik ' || l_emp_id || ' zarabia ' || l_salary || ' PLN');
 end;
 ```
+
+#### Przykład 8.6
+
+Zadeklaruj zmienną jako NOT NULL, ale nie przypisuj jej wartości.
+
+```
+declare 
+  l_emp_id number(6) not null;
+  l_salary number(6) := 4500;
+begin
+  dbms_output.put_line('Pracownik ' || l_emp_id || ' zarabia ' || l_salary || ' PLN');
+end;
+```
+
+Rezultat:
+
+```
+Error report -
+ORA-06550: line 2, column 12:
+PLS-00218: a variable declared NOT NULL must have an initialization assignment
+06550. 00000 -  "line %s, column %s:\n%s"
+*Cause:    Usually a PL/SQL compilation error.
+*Action:
+```
