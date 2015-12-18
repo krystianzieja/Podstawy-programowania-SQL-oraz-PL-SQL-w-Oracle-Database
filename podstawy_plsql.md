@@ -216,7 +216,13 @@ ORA-06550: line 4, column 3:
 
 ## Typ rekordowy w Oracle
 
-Typ rekordowy w Oracle przypomina obiekt lub wiersz z tabeli. Rekord 
+Typ rekordowy w Oracle przypomina obiekt lub wiersz z tabeli. Typ rekordowy posiada pola do przechowywania danych. Aby móc użyć typu rekordowego w Oracle najpierw musimy go zdefiniować.
+
+Składnia definicji typu rekordowego:
+
+```
+
+```
 
 #### Przykład 8.14
 
