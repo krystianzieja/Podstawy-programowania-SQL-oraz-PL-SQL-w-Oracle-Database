@@ -221,7 +221,12 @@ Typ rekordowy w Oracle przypomina obiekt lub wiersz z tabeli. Typ rekordowy posi
 Składnia definicji typu rekordowego:
 
 ```
-
+TYPE record_type_name IS RECORD
+(
+    first_column datatype,
+    second_column datatype,
+    ...
+);
 ```
 
 #### Przykład 8.14
