@@ -18,3 +18,10 @@ Jak można łatwo zauważyć, że nic nie zostało wypisane na ekran. Powodem ta
 
 Włącz wypisywanie na konsolę poprzez instrukcję SET SERVEROUTPUT ON i wykonaj popnownie blok anonimowy z Przykładu 8.1
 
+```
+set serveroutput on
+begin
+  dbms_output.put_line('Hello World!');
+end;
+```
+
