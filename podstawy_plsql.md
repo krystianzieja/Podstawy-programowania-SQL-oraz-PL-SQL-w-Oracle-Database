@@ -372,6 +372,8 @@ end;
 
 ## Pętle w PL/SQL
 
+### Simple Loop
+
 Najprostszą konstrukcją pętli w PL/SQLjest Simple Loop.
 
 ```
@@ -408,5 +410,19 @@ end;
 #### Przykład 8.21
 
 ```
+declare
+  l_start_balance number := 2150;
+  l_end_balance number := 1000;
+begin
+  
+  loop
+    l_start_balance := l_start_balance - 100;
+    dbms_output.put_line('Biezacy balans: ' || l_start_balance);
+    exit when l_start_balance < l_end_balance;
+    
+  end loop;
+  
+end;
 
 ```
+
