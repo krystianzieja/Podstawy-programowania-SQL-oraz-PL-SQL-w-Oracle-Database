@@ -533,6 +533,7 @@ end;
 
 ### Kursory
 
+W Oracle występują dwa rodzaje kursorów implicit oraz explicit. Kursory implicit są tworzone automatycznie, podczas wykonywania instrukcji DML w kodzie PL/SQL lub podczas wykonanie instrukcji SELECT, która zwraca tylko jeden rekord.
 
 #### Przykład 8.27
 
