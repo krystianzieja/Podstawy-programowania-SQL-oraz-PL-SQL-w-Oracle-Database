@@ -426,3 +426,37 @@ end;
 
 ```
 
+### While Loop
+
+Innym rodzajem pętli jest pętla WHILE. W tej pętli nie mamy gwarancji, że ciał zostanie wykonane conajmniej raz.
+
+```
+WHILE warunek
+LOOP
+    instrukcje
+END LOOP;
+```
+
+#### Przykład 8.22
+
+```
+declare
+  l_number number := 1;
+  l_count number := 0;
+begin
+  
+  while l_count < 10
+  loop
+    
+    if mod(l_number, 2) != 0
+    then
+      dbms_output.put_line('liczba nieparzysta: ' || l_number);
+      l_count := l_count + 1;
+    end if;
+    l_number := l_number + 1;
+  end loop;
+  
+end;
+
+```
+
