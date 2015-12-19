@@ -324,3 +324,23 @@ begin
 end;
 ```
 
+#### Przykład 8.18
+
+```
+declare
+  l_salary number;
+  l_employee_id number := 200;
+begin
+  select salary
+    into l_salary
+  from employees
+  where employee_id = l_employee_id;
+  
+  if l_salary > 5000
+  then
+    dbms_output.put_line('Powyzej sredniej krajowej: ' || l_salary);
+  else
+    dbms_output.put_line('Ponizej sredniej krajowej: ' || l_salary);
+  end if;
+end;
+```
