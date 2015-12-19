@@ -496,3 +496,26 @@ begin
 end;
 ```
 
+Pętla FOR wspiera również interacje po rekordach zwróconych przez instrukcje SELECT.
+
+### Przykład 8.25
+
+```
+begin
+  
+  for region_rec in (select * from regions)
+  loop
+    dbms_output.put_line('Region Id: ' || region_rec.region_id);
+    dbms_output.put_line('Region Name: ' || region_rec.region_name);
+    dbms_output.put_line('');
+  end loop;
+  
+end;
+
+```
+
+### Przykład 8.26
+
+```
+
+```
