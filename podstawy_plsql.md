@@ -370,3 +370,22 @@ begin
 end;
 ```
 
+## Pętle w PL/SQL
+
+Najprostszą konstrukcją pętli w PL/SQLjest Simple Loop.
+
+```
+LOOP
+    instrukcje do wykonania
+    [EXIT]
+    [EXIT WHEN warunek]
+END LOOP;
+```
+
+Tą pętle wykorzystujemy gdy nie wiemy ile razy chcemy wykonać pętle, ale jesteśmy pewni, że chcemy aby ciało pętli zostało wykonane conajmniej raz. Jeżeli pętla nie będzie zawierała słowa kluczowego EXIT lub EXIT WHEN z warunkiem zakończenia pętli, będzie ona działać w nieskończonść.
+
+#### Przykład 8.20
+
+```
+
+```
