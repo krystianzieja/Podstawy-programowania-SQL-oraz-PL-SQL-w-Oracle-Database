@@ -460,3 +460,26 @@ end;
 
 ```
 
+### FOR Loop
+
+```
+FOR index IN [REVERSE] start .. koniec
+LOOP
+ instrukcje
+END LOOP;
+
+```
+
+### Przykład 8.23
+
+```
+begin
+  
+  for i in 1..10
+  loop
+    dbms_output.put_line('index: ' || i);
+  end loop;
+  
+end;
+```
+
