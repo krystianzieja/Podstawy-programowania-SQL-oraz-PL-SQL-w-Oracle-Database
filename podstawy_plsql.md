@@ -387,5 +387,20 @@ Tą pętle wykorzystujemy gdy nie wiemy ile razy chcemy wykonać pętle, ale jes
 #### Przykład 8.20
 
 ```
+declare
+  l_start_balance number := 2150;
+  l_end_balance number := 1000;
+begin
+  
+  loop
+    l_start_balance := l_start_balance - 100;
+    dbms_output.put_line('Biezacy balans: ' || l_start_balance);
+    if l_start_balance < l_end_balance
+    then
+      exit;
+    end if;
+  end loop;
+  
+end;
 
 ```
