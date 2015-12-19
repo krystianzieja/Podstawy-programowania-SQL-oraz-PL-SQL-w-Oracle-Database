@@ -531,7 +531,7 @@ end;
 
 ```
 
-## Kursory
+### Kursory
 
 
 #### Przykład 8.27
