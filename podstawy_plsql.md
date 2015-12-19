@@ -556,3 +556,48 @@ begin
 end; 
 ```
 
+Kursory typu explicit musimy zdefiniować samodzielnie oraz samodzielnie obsłużyć.
+
+### Przykład 8.28
+
+```
+declare 
+  l_emp_rec employees%rowtype;
+  cursor emp_cur is 
+    select *
+    from employees
+    where salary > 5000; 
+  
+begin 
+    open emp_cur; 
+    fetch emp_cur into l_emp_rec; 
+      dbms_output.put_line (l_emp_rec.first_name || ' ' || l_emp_rec.last_name 
+        || ' ' || l_emp_rec.salary); 
+   close emp_cur; 
+end; 
+
+```
+
+Jak widać powyższy kod zwrócił tylko jeden rekord, powodem takiego zachowania jest to, że kursory typu explicit powinny być przetwarzane w pętli.
+
+### Przykład 8.29
+
+```
+declare 
+  l_emp_rec employees%rowtype;
+  cursor emp_cur is 
+    select *
+    from employees
+    where salary > 5000; 
+  
+begin 
+  open emp_cur; 
+  loop
+    fetch emp_cur into l_emp_rec; 
+    exit when emp_cur%notfound;
+    dbms_output.put_line (l_emp_rec.first_name || ' ' || l_emp_rec.last_name 
+      || ' ' || l_emp_rec.salary); 
+  end loop;
+  close emp_cur; 
+end; 
+```
