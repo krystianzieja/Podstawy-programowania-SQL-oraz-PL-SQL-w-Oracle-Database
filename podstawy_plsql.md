@@ -517,5 +517,19 @@ end;
 ### Przykład 8.26
 
 ```
+begin
+  
+  for emp_rec in (select last_name, salary, department_id from employees where department_id in (10,30))
+  loop
+    dbms_output.put_line('Last Name: ' || emp_rec.last_name);
+    dbms_output.put_line('Salary: ' || emp_rec.salary);
+    dbms_output.put_line('Department Id: ' || emp_rec.department_id);
+    dbms_output.put_line('');
+  end loop;
+  
+end;
 
 ```
+
+## Kursory
+
