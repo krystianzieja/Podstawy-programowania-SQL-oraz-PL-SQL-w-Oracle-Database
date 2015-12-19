@@ -534,7 +534,7 @@ end;
 ## Kursory
 
 
-Przykład 8.27
+#### Przykład 8.27
 
 ```
 declare  
