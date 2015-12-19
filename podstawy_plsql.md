@@ -533,3 +533,25 @@ end;
 
 ## Kursory
 
+
+Przykład 8.27
+
+```
+declare  
+  l_rows number;
+begin
+  update employees2 
+  set salary = salary + 1000
+  where department_id = 999;
+  --where department_id = 30;
+  if sql%notfound 
+  then
+    dbms_output.put_line('Brak podwyzek');
+  elsif sql%found 
+  then
+    l_rows := sql%rowcount;
+    dbms_output.put_line('Podwyzka dla ' || l_rows || ' pracownikow');
+  end if; 
+end; 
+```
+
