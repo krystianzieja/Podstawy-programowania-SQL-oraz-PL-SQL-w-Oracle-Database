@@ -642,3 +642,9 @@ begin
       dbms_output.put_line('Dzial ma jeszcze pracownikow nie mozna go usunac');
 end;
 ```
+
+#### Przykład 8.32
+
+```
+
+```
