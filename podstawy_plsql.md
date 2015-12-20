@@ -656,3 +656,27 @@ begin
       dbms_output.put_line('Nie zdefiniowany wyjatek');
 end;
 ```
+
+## Procedury
+
+#### Przykład 8.33
+
+```
+create procedure pole_kola(radius in number)
+is
+  c_pi constant number := 3.14;
+begin
+  
+  dbms_output.put_line('Rezultat: ' || c_pi * radius * radius);
+  
+end;
+
+```
+
+Wykonanie procedury:
+
+```
+exec pole_kola(5)
+
+exec pole_kola(10)
+```
