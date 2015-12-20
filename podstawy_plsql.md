@@ -646,5 +646,13 @@ end;
 #### Przykład 8.32
 
 ```
-
+begin
+  
+  dbms_output.put_line('Rezultat: ' || 100 / 0);
+  
+  exception
+    when others
+    then
+      dbms_output.put_line('Nie zdefiniowany wyjatek');
+end;
 ```
