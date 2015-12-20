@@ -601,3 +601,44 @@ begin
   close emp_cur; 
 end; 
 ```
+
+### Wyjątki
+
+#### Przykład 8.30
+
+```
+begin
+  
+  dbms_output.put_line('Rezultat: ' || 100 / 0);
+  
+  exception
+    when zero_divide
+    then
+      dbms_output.put_line('Nie dziel przez zero');
+end;
+```
+
+#### 8.31
+
+```
+declare
+  l_count number := 0;
+  l_department_id number := 90;
+  still_has_employees exception;
+begin
+  select count(*)
+    into l_count
+  from employees
+  where department_id = l_department_id;
+  
+  if l_count > 0
+  then
+    raise still_has_employees;
+  end if;
+  
+  exception
+    when still_has_employees
+    then
+      dbms_output.put_line('Dzial ma jeszcze pracownikow nie mozna go usunac');
+end;
+```
