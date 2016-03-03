@@ -96,3 +96,55 @@ not found
 
 Jak widać baza danych nie pozwoliła utworzyć rekordu w tabeli grupy, bez przypisania istniejącego wykładowcy.
 
+
+## Izolacja
+
+Do zobrazowania izolacji wykorzystamy dwie sesje, oznaczone jako S1 oraz S2
+
+```
+S1:
+SQL> select* from wykladowcy;
+
+        ID NAZWISKO
+---------- ----------------------
+         1 Kowalski
+         
+SQL> insert into wykladowcy values(2, 'Wisniewski');
+
+1 row created.
+
+SQL> select * from wykladowcy;
+
+        ID NAZWISKO
+---------- -------------------------------------------
+         1 Kowalski
+         2 Wisniewski
+ 
+ S2:
+ SQL> select * from wykladowcy;
+
+        ID NAZWISKO
+---------- ------------------------
+         1 Kowalski
+         
+Jak widać inne sesje nie widzi niezatwierdzonych danych.
+
+S1:
+
+SQL> commit;
+
+Commit complete.
+
+S2:
+
+SQL> select * from wykladowcy;
+
+        ID NAZWISKO
+---------- ------------------------
+         1 Kowalski
+         2 Wisniewski
+         
+Dopiero po zatwierdzeniu transakcji przez S1, sesja S2 widzi zatwierdzone dane.
+
+```
+
