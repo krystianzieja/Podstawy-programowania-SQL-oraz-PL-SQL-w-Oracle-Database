@@ -9,4 +9,5 @@
 * [Funkcje Agregujące](funkcje_agregujace.md)
 * [Operatory zbiorowe](operatory_zbiorowe.md)
 * [Podstawy PL/SQL](podstawy_plsql.md)
+* Transakcje
 
