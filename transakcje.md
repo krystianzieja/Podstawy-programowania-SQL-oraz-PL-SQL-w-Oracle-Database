@@ -13,3 +13,6 @@ Istnieją cztery wymagania jakie stawia się przed systemami relacyjnych baz dan
 
 **Spójność** - po wykonaniu zbioru transakcji stan bazy danych powinien być spójny (pod warunkiem, że przy rozpoczynaniu transakcji stan bazy danych był spójny oraz że każda z wykonywanych transakcji jest z osobna poprawna).
 
+**Izolacja** - transakcje powinny sobie wzajemnie nie  przeszkadzać w działaniu. Każdy użytkownik powinien mieć iluzję, że sam korzysta z bazy danych.
+
+**Trwałość** - dane zatwierdzone przez transakcję powinny być dostępne nawet w sytuacji awarii programu, komputera lub nośnika danych.
