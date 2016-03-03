@@ -62,4 +62,37 @@ commit;
 
 ## Spójność
 
+Ta właściwość gwarantuje, że baza będzie w spójnym stanie bez względu na to czy transakcja się powiodła czy nie.
+
+### Przykład
+
+```
+create table wykladowcy(
+id number(6,0) primary key,
+nazwisko varchar2(64) not null);
+
+create table grupy(
+id number(8,0) primary key,
+nazwa varchar2(64) not null,
+wykladowca_id number(6,0) not null);
+
+alter table grupy add constraint grupy_wykladowcy_fk
+foreign key (wykladowca_id) references wykladowcy(id);
+
+insert into wykladowcy values(1,'Kowalski');
+
+insert into grupy(id, nazwa, wykladowca_id) values(101,'101/2015', 1);
+
+commit;
+
+
+insert into grupy(id, nazwa, wykladowca_id) values(102,'102/2015', 2);
+insert into grupy(id, nazwa, wykladowca_id) values(102,'102/2015', 2)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (HR.GRUPY_WYKLADOWCY_FK) violated - parent key
+not found
+```
+
+Jak widać baza danych nie pozwoliła utworzyć rekordu w tabeli grupy, bez przypisania istniejącego wykładowcy.
 
