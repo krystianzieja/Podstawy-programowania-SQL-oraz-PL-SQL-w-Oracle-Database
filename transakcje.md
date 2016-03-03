@@ -34,8 +34,32 @@ Atomowość transakcji
 
 Transakcja może zakończyć swoje działanie na cztery sposoby:
 
-zatwierdzeniem (COMMIT) po zakończeniu wszystkich swoich akcji,
-samo-wycofaniem (ROLLBACK) - anulowaniem wszystkich wykonanych akcji,
-może zostać przerwana przez SZBD ("abortowana", ang. abort) a następnie wycofana i  restartowana (np. z powodu zakleszczenia - ang. deadlock),
-zanim dojdzie do końca może zostać przerwana z powodu awarii serwera lub dysku - po podniesieniu systemu po awarii dotychczasowe zmiany wprowadzone przez transakcję zostają na chwilę przywrócone a następnie wycofane przez system (ponieważ transakcja nie zakończyła się zatwierdzeniem).
+* zatwierdzeniem (COMMIT) po zakończeniu wszystkich swoich akcji,
+* wycofaniem (ROLLBACK) - anulowaniem wszystkich wykonanych akcji,
+* może zostać przerwana przez silnik bazy danych (abort), a następnie wycofana (np. z powodu zakleszczenia - deadlock),
+* zanim dojdzie do końca może zostać przerwana z powodu awarii serwera lub dysku - po podniesieniu systemu po awarii dotychczasowe zmiany wprowadzone przez transakcję zostają na chwilę przywrócone a następnie wycofane przez system (ponieważ transakcja nie zakończyła się zatwierdzeniem).
 W każdej więc z tych sytuacji albo cała transakcja zostaje wykonana albo żadna jej część nie zostaje wykonana. Transakcję można traktować jak pojedynczą, atomową operację na bazie danych.
+
+### Przykład
+
+Wykonanie transferu 100 złotych pomiędzy kontami. Jeżeli serwer będzie miał awarię po pierwszej instrukcji update, wynik będzie niepoprawny z logicznego punktu widzenia.
+
+```
+update konta set saldo = saldo - 100 where id = 1;
+commit;
+-- tutaj następuje awaria
+update konta set saldo = saldo + 100 where id = 2;
+commit;
+```
+Poprawnie zaprogramowana transakcja powinna wyglądać tak.
+
+```
+update konta set saldo = saldo - 100 where id = 1;
+update konta set saldo = saldo + 100 where id = 2;
+commit;
+```
+
+
+## Spójność
+
+
