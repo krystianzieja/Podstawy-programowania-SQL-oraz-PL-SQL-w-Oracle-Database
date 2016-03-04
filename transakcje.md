@@ -148,3 +148,14 @@ Dopiero po zatwierdzeniu transakcji przez S1, sesja S2 widzi zatwierdzone dane.
 
 ```
 
+## Trwałość
+
+Trwałość zapewnia, że zatwierdzone dane będą dostępne nawet w przypadku awarii. Oracle realizuje to poprzez zapisywanie transakcji najpierw do plików Redo Log, a dopiero potem do plików Datafile. Spowodowane jest to również względami wydajnościowymi.
+
+```
+insert into wykladowcy values(3, 'Dabrowski');
+commit;
+
+Nawet jak teraz nastąpi awaria, można ja zasymulować korzystając z polecenia shutdown abort (wydanego jako sys), zatwierdzone dane będą w bazie danych po ponownym starcie.
+```
+
